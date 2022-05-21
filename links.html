@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--Se usarmos a linha "<meta http-equiv="refresh" content="3">" o site ficará atualizando automaticamente a cada 3 segundos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone-Html.ico" type="image/x-icon">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Acessando o meu <a href="https://github.com/andersonr-o/andersonr-o" target="_blank" rel="external">perfil no GitHub</a>, por exemplo.</p>
+    <h1>Usando links internos</h1>
+    <p>Este é só um resumo, mas se quiser se aprofundar no assunto, acesse <a href="pag02.html" target="_self" rel="next">Conteúdo denso</a></p>
+    <p>Se quiser acessar a página base que explica tudo sobre notícias, <a href="noticias/pag03.html" target="_self" rel="next">Clique aqui</a></p>
+    <!--Targets: _self -> Redireciona-te para uma mesma página; _blank -> Redireciona-te a outra página. Usamos o _self para links internos e o _blank para links externos. Isso pois uma página tende a ter muitos links internos e mandar o programa abri-lo em outra página causaria uma bagunça desconfortável para o usuário. Já os links externos são abertos em outras páginas devido a sua baixa quantidade e para o usuário não esquecer da sua página e começar a navegar somente na externa
+    Rel: nofollow -> É para quando não há um alvará para a página referenciada ou não se tem 100% de certeza que seja uma página de conteúdo original.
+    dofollow -> É usado como o oposto do nofollow, dizendo para o google que essa é uma página de conteúdo original. Geralmente, empresas patrocinadoras pedem um rel assim.
+    external -> Usado para referenciar um link externo
+    next -> Referencia um link de partida para outra página
+    prev -> Vem de previous e é usado para referenciar um link de volta para uma página mãe-->
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/teste_link.pdf" download="teste_link.pdf" type="application/pdf">Baixe o seu PDF aqui</a></li>
+        <!--Alguns navegadores não permitem baixar o arquivo com o parâmetro download. O parâmetro type talvez resolva. No site "iana.org/assignments/media-types/media-types.xhtml" há diversos tipos de arquivo e como eles devem ficar dentro de type="" para serem baixado. O pdf, por exemplo, é "application/pdf"-->
+        <li><a href="livro/teste_link.zip">Baixe o seu ZIP aqui</a></li>
+    </ul>
+    <!--Como aqui foi usado duas listas dentro de ul, e ambas com a tag <a>, podemos fazer assim para criá-las automaticamente através de um macete:
+        ul>li*2>a + enter
+    e elas serão criadas. Isso serve para criar qualquer tag aninhada-->
+</body>
+</html>
