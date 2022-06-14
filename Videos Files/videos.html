@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML5</title>
+</head>
+<body>
+    <h1>Hospedando vídeos localmente em HTML5</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <!--Com esse código abaixo, há a possiblidade de testarmos vários vídeos em formatos diferentes no navegador do usuário, se o primeiro não for compatível, o navegador tenta rodar o segundo, e assim por diante.-->
+    <video controls width="300px" height="300px" poster="cachorro-thumb.jpg">
+        <source src="arte-de-cachorro.mp4" type="video/mp4">
+        <source src="video-primario.mp4" type="video/mp4">
+        <source src="Pexels-Beytlik-9959514.m4v" type="video/mp4">
+        <source src="Pexels-Beytlik-9959514.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos</p>
+    </video>
+    <!--Hospedar vídeos localmente pode ser um perigo, pois cada usuário que acessa o site deve ser considerado. Por exemplo: se o site recebe 1000 usuários diariamente e tem um vídeo de 15MB hospedado localmente, o tráfego de dados consumido diariamente será de 15.000MB, ou 14,64GB. Isso pesa no bolso do cliente, por isso é melhor hospedar externamente.-->
+
+    <h1>Incorporando Vídeos Externos</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/6iw6GmoX3Lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html
