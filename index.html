@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento de Textos e Seletores</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font: normal 16px Arial, Verdana, serif;
+            text-align: left;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        h2{
+            text-align: right;
+        }
+
+        p{
+            text-align: justify;
+            text-indent: 30px;
+        }
+
+        #p1{
+            background-image: linear-gradient(to right, blue, purple, red);
+        }
+
+        /*Podemos colocar só o id e deixar a tag de fora, assim todos as tags que tiverem o id "p1" receberão essas alterações*/
+
+        /*Há quatro tipos de formas de alinhamento de textos, sendo todas elas utilizando a tag "text-align: x;". O x pode ser center, left, right e justify.*/
+
+        p#p2{
+            color: green;
+        }
+        /*Seletores como o id e o class servem para distinguir tags semelhantes, permitindo, assim, que seja feita modificações em CSS para um e para o outro não*/
+
+        /*A hashtag identifica id. O ponto identifica class*/
+
+        h2.somos_iguais{
+            text-align: center;
+        }
+
+        /*Quando queremos usar o mesmo seletor para duas tags iguais, não usamos o id. A W3C, órgão responsável por determinar a leitura e a interpretação de conteúdos web, recomenda que usemos o class para essa funcionalidade.*/
+
+        /*dê nomes aos seus seletores pela sua funcionalidade e não pela sua forma. Por exemplo: não coloque h1#verde só porque ele é verde, coloque h1#color. Foi o que fiz com a class somos_iguais.*/
+
+        /*id sobrepõe class, isto é, são considerados mediante a um dilema entre qual o programa escolhe.*/
+
+        /*id só pode um elemento por seletor. Já o class, eu consigo colocar diversos dentro de um mesmo seletor, basta dividi-los por um espaço.*/
+
+    </style>
+</head>
+<body>
+    <h1>Alinhamento</h1>
+    <h2 class="somos_iguais">Subtítulo</h2>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error illum, optio facere doloremque facilis commodi perspiciatis harum, placeat similique laudantium nostrum officia libero omnis. Quae eum unde sit alias aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium minus laborum enim qui corrupti eligendi laboriosam quasi non debitis! Quae vel quo inventore labore fuga iure placeat. Perspiciatis, similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae magnam obcaecati quia, nostrum reiciendis praesentium impedit harum consequuntur a. Sapiente repudiandae illo in harum eligendi reprehenderit labore, deleniti cupiditate sed! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium architecto excepturi deserunt omnis odio fugiat provident quas laborum! Aliquid, repellendus inventore explicabo deserunt sapiente sint possimus. Soluta maxime fuga repellendus!</p>
+
+    <h2 class="somos_iguais">Sub-subtítulo</h2>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. In sed ducimus consequuntur ad? Voluptas officia sit quo eum id necessitatibus voluptatum dolores tempora optio? Aliquid consequuntur harum quae quam dolorum.</p>
+</body>
+</html>
