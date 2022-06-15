@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .especial{
+            background-color: darkred;
+            color: white;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{ /*quando o link já tiver sido visitado, ele ficará azul*/
+            color: blue;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{ /*quando o mouse estiver clicando no link, ele ficará verde escuro*/
+            color: darkgreen ;
+        }
+
+        /* a::after{
+            content: '[link]';
+            font-weight: normal;
+            text-decoration: none;
+            color: darkgray;
+        }*/
+
+        a::after{ /*Pseudo-elemento que adiciona algo depois do elemento. Nesse caso será adicionado o conteúdo e sua formatção logo após a âncora*/
+            content: ' <--';
+        }
+
+        a::before{
+            content: '--> ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+<ul>
+    <li><a href="https://github.com/andersonr-o" target="_blank">Repositório no GitHub</a></li>
+    <li><a href="https://www.instagram.com/xrl.oito/" target="_self" rel="next">Site</a></li>
+    <li class="especial"><a href="https://www.youtube.com/channel/UCH0itggeEoQmxE_WcPsfuJQ" target="_blank">Canal</a></li>
+</ul>
+</body>
+</html>
