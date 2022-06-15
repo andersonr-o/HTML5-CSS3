@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+h1{
+    /*transforma o box-level em inline-level:
+    display: inline;
+    se o transformarmosem inline, não podemos usar medidas de height e width*/
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+
+    /*border-width: 10px;
+    border-color: lightgoldenrodyellow;
+    border-style: inset;
+    shorthand de border:*/
+
+    border: 10px inset lightgoldenrodyellow ;
+
+    /*Tem de estar nessa ordem:
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    shorthand de padding:
+    se o padding for de medidas iguais para todos os lados, padding: 10px 10px 10px 10px; basta usar o padding: 10px;*/
+
+    padding: 10px;
+
+    /*shorthand de margin:
+    ordem necessária:
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;*/
+
+    /*margin: auto; para centralizar caixas*/
+
+    margin: 20px 20px 40px 20px;
+
+    /*Para centralizarmos com shorthand margin:
+    margin: 20px auto 40px auto;*/
+
+    /*shorthand outline:
+    ordem necessária:
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;*/
+
+    outline: 5px dashed salmon;
+}
+
+a{
+    /*transforma o inline em box-level:
+    display: block;*/
+    border-style: double;
+    border-width: 5px;
+    border-color: red;
+}
