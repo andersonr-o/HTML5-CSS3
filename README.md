@@ -1,25 +1,46 @@
-# Tipografia
- ## O que é?
-    A palavra "tipografia" vem do grego typos = forma  e graphein = escrita. Ou seja, é a forma em que as palavras são escritas.<br>
-    Pode parecer besteira e até mesmo um assunto chato para quem não é designer ou não tem interesse na área, mas é graças à tipografia que conseguimos ler todos os tipos de documentos com mais fluidez.<br>
-    Desde a era dos monges copistas (monges que copiavam, literalmente, um livro para vendê-lo aos nobres) a tipografia já era importante. Depois da invenção da prensa móvel de Johannes Gutenberg por volta de 1450, essa importância só se ressaltou.
-## Anatomia do tipo
-    Podemos dividi-las em duas partes: as de itens geométricos e as de itens anatômicos de fato.
-### Itens Métricos:
-    *Altura das maiúsculas: É o topo de onde as letras maiúsculas alcançam.<br><br>
-    *Altura X: É a distância da base de uma letra <strong>minúscula</strong> até o seu topo.<br><br>
-    *Ascendentes: Chama-se de quando as letras minúsculas não respeitam a altura x e ultrapassam o seu topo. Por exemplo: as letras "l, b, d, f, h, etc".<br><br>
-    *Descendentes: É o contrário das ascendentes. É quando as letras <strong>minúsculas</strong> ultrapassam a sua base. Por exemplo: as letras "q, p, g, j, etc".<br><br>
-    *Corpo: Chama-se de toda a altura, desde as descendentes até o topo da altura das maiúsculas.
-### Itens Anatômicos:
-    São aqueles que não se referem à medidas, ou seja, estão na forma de cada letra.
-    *Serifa: O mais importante dos itens anatômicos, pois faz uma enorme diferença visual no texto como um todo e auxilia na leitura do texto, dando uma sensação de continuidade para o leitor. Resumidamente, trata-se de um alongamento no pé de cada letra.<br>
-    Em textos impressos, a serifa está em quase todos os lugares, pois é importante. Já em títulos ou textos digitais a serifa não é tão usada assim, pois, como dito pode fazer diferença visual e encher mais o texto e torná-lo mais cansativo, mas não se trata de uma regra inalterável. Quando temos um texto sem serifa, usamos o "sans-serif", que vem do francês.
-    *Pé: É onde cada letra encosta na base da altura x. É no pé que a serifa é criada, mas uma não é inerente à outra. A letra "x", por exemplo, tem dois pés.
-    *Haste: É a coluna de uma letra. A letra "k", por exemplo, tem uma haste que desenvolve outros dois itens anatômicos.
-    *Filete: É um traço que une duas hastes. A letra "A", por exemplo, tem um filete no meio das duas hastes laterais.
-    *Braço: Na letra "K", por exemplo, o braço é  branch que vai para cima.
-    *Perna: Já o braço é, na letra "k", o branch que vai para cima.
-    *Olho: É a parte vazia de cada letra. Na letra "o", por exemplo, não há nada no meio, isto é, caracteriza-se como um olho
-    *Cauda: É a parte descendente da letra, como a letra "g".<br><br>
-    Há diversos outros itens, mas são tantos que talvez só valha a pena lembrar dos principais, ou seja, desses citados.
+## Família Tipográfica
+### O que é um glifo?
+Antes de tudo, vamos entender o conceito de glifos. Um glifo é uma letra de uma fonte. Um conjunto de glifos de uma família é uma fonte.
+### O que são famílias tipográficas?
+É quando a fonte tem vários formatos de representar o mesmo glifo. Algumas fontes não permitem isso, outras já permitem todas as variações, como é o caso da “Open Sans”.<br><br>
+### Quais os cinco tipos de variações nas famílias tipográficas?
+* Light: É a de menor glifo.
+* Normal: Como o nome diz é a fonte normal, a padrão que vemos na maioria das vezes.
+* Semibold: É uma fonte um pouco maior que a normal, mas nem tanto assim também.
+* Bold: É a fonte em negrito. É um pouco maior que as outras fontes.
+* Extrabold: É a maior fonte que há dentro da escala das famílias tipográficas.<br><br>
+Há algumas a mais das citadas acima, mas essas cinco são as mais importantes e populares.<br>
+**Imagem que demonstra as variações nas famílias:**<br><br>
+![tipografía1](https://user-images.githubusercontent.com/97858145/160289111-240bba7c-9f74-4336-a327-dfc98c97bf5e.jpg)
+
+## Categorias das Fontes:
+### Serifadas:
+São as que possuem um alongamento em seus pés, como vimos no outro markdown (colocar link).<br><br>
+<strong>Cuidado:</strong> Fontes serifadas sem espaçamento lateral podem prejudicar a leitura do seu texto, pois deixam as letras muito grudadas.<br><br>
+Para leitura, usa-se cores complementares. A melhor de todas as combinações é fundo preto e letra branca. Já para contratos a letra é preta e o fundo é branco. Não há nenhum motivo, trata-se somente de uma convenção.<br><br>
+**Imagem de fontes serifadas:**<br><br>
+![1serifadestaqueph9](https://user-images.githubusercontent.com/97858145/160289068-00059a13-a9cf-4a48-b802-86a170dde339.gif)
+
+### Sans-serif:
+Ao contrário das serifadas, são aquelas sem alongamento nos pés. Também já visto no outro artigo markdown, portanto, não há necessidade de dar tanta ênfase aqui.<br><br>
+**Imagem de fontes não serifadas:**<br><br>
+![2semserifafl9](https://user-images.githubusercontent.com/97858145/160289061-3b7839ac-841a-419e-aff9-a7d9a9420124.gif)
+
+### Monoespaçada:
+É quando os glifos ocupam sempre a mesma largura.
+Por exemplo, a letra “T” ocupa um espaço maior que a letra “i”. Na categoria monoespaçada isso não existe, pois todas ocupam espaços iguais.<br><br>
+**Imagem de fontes monoespaçadas:**<br><br>
+Perceba que a escrita da parte de baixo (monoespaçada) é diferente da escrita da parte de cima (proporcional).<br><br>
+![209px-Proportional-vs-monospace-v5](https://user-images.githubusercontent.com/97858145/160289023-e33311d2-c052-4a50-b75a-aeb153746c53.jpeg)
+
+### Handwriting:
+Simula a escrita à mão, com caracteres mais unidos e juntos na escrita.<br><br>
+**Imagem de uma fonte simulando a letra à mão:**<br><br>
+![4scriptsip2](https://user-images.githubusercontent.com/97858145/160289018-b6327c52-3496-445c-8d3f-d422fd6bf7b2.jpg)
+
+### Display:
+É uma fonte anárquica, que não obedece regras anatômicas.<br>
+Fontes de bandeirinha e que não tem letras são fontes display, por exemplo.<br>
+Essa categoria é usada em contextos divertidos.<br><br>
+**Imagem Demonstrativa:**<br><br>
+![5displayoz5](https://user-images.githubusercontent.com/97858145/160288931-a26a8bdc-1c60-47ef-9101-fe5f3db08f82.gif)
