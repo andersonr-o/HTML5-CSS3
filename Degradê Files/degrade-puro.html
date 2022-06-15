@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Gradiente</title>
+    <style>
+        *{ /* Configurações Globais da CSS  */
+            height: 100%;
+        }
+        body{
+            background-image: linear-gradient(to right, #4967C6 /*10%*/, #DD4177, #ED4963, #FFBA4E, #E9466C); /*Pode-se colocar quantas cores quiser, só tomar cuidado com a sequência*/
+
+            /*radial-gradient fará o degradê em uma forma, como o circle*/
+
+            /*Se eu colocar uma porcentagem na frente de uma cor, ela ocupará o espaço da porcentagem na tela. Por exemplo: se eu colocar blue 50%, ele ocupará metade da tela e depois o degradê seguirá normalmente*/
+
+            background-attachment: fixed; /*Faz com que a cor seja harmônica até na parte de baixo (que geralmente fica estranha)*/
+            
+        } /*Configuração de como criar degradês*/
+    </style>
+</head>
+<body>
+    <h1>Testando Gradiente</h1>
+</body>
+</html>
