@@ -1,3 +1,6 @@
+## Link para acesso ao site:
+[Site demonstrativo do tema](https://andersonr-o.github.io/Html-Css/alinhamento-e-recuo/index.html)
+
 # Alinhamento de Textos
  ## O que é?
   Todos já ouvimos sobre isso em algum lugar se já fizemos algum trabalho de escola ou redação.<br>
