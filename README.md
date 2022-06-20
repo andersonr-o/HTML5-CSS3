@@ -1,3 +1,6 @@
+## Link para acesso ao site:
+[Site](https://andersonr-o.github.io/Html-Css/midias-dinamicas/midias.html) sobre mídias que se adaptam a diferentes tamanhos de tela.
+
 # Mídias Dinâmicas
  Uso de imagens dinâmicas, áudios, vídeos e outros arquivos dentro do seu site
 ## Na CSS
