@@ -1,5 +1,6 @@
 ## Link para acesso ao site:
-Este site não mostra muita coisa. A sua preciosidade se encontra mais no código CSS, entretanto o resultado final é esse: [Site](https://andersonr-o.github.io/Html-Css/cores/representando-cores/index.html).
+Este site não mostra muita coisa.<br>
+A sua preciosidade se encontra no código CSS, entretanto o resultado final é esse: [Site](https://andersonr-o.github.io/Html-Css/cores/representando-cores/index.html).
 
 # Representando Cores
 O arquivo index mostra, na prática, as cinco representações das cores existentes em CSS3, que são:
