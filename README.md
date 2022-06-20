@@ -1,6 +1,8 @@
-## Link para acesso ao site:
-[Site interativo](https://andersonr-o.github.io/Html-Css/pseudo-class-pseudo-elementos/hover.html) usando somente HTML.<br>
-Outro [Site animado](https://andersonr-o.github.io/Html-Css/pseudo-class-pseudo-elementos/pseudo-elem.html) do mesmo.
+## Links para acesso aos sites:
+[Site interativo](https://andersonr-o.github.io/Html-Css/pseudo-class-pseudo-elementos/hover.html) que mostra um texto escondido quando o usuário posiciona o mouse aonde é indicado.<br><br>
+Outro [Site animado](https://andersonr-o.github.io/Html-Css/pseudo-class-pseudo-elementos/pseudo-elem.html) que muda a cor das letras quando o mouse é posicionado em cima.<br><br>
+Por fim, este [Site](https://andersonr-o.github.io/Html-Css/pseudo-class-pseudo-elementos/pseudo_classe.html) nos mostra três caixas normais, mas que quando posicionamos o mouse em cima, elas ficam cheias de cores gradientes.
+
 
 # Pseudo-classes
  Elas são representadas por dois pontos, isto é, ":".<br><br>
