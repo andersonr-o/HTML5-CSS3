@@ -1,3 +1,6 @@
+## Link para acesso ao site:
+[Site](https://andersonr-o.github.io/Html-Css/Videos/videos.html) demonstrativo de incorporação de vídeos internos e externos.
+
 # Como usar vídeos em HTML5 e cuidados que deve se ter.
  ## O Problema dos Vídeos Internos
 Hospedar vídeos localmente pode ser um perigo, pois cada usuário que acessa o site deve ser considerado. Por exemplo: se o site recebe 1000 usuários diariamente e tem um vídeo de 15MB hospedado localmente, o tráfego de dados consumido diariamente será de 15.000MB, ou 14,64GB.<br><br>
