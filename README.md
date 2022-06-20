@@ -1,3 +1,6 @@
+## Link para acesso ao site:
+[Site](https://andersonr-o.github.io/Html-Css/seletores/index.html) que mostra parágrafos com alinhamento e recuo.
+
 # Seletores
  Seletores como o id e o class servem para distinguir tags semelhantes, permitindo, assim, que seja feita modificações em CSS para um e para o outro não<br><br>
  Por exemplo:<br><br>
