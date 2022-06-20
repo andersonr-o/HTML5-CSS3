@@ -1,3 +1,7 @@
+## Link para acesso ao site sobre links:
+[Site](https://andersonr-o.github.io/Html-Css/Links/links.html)<br><br>
+Nele, você conseguirá testar os links criados no código e ainda poder analisá-lo aqui no artigo.
+
 # Links
 ## Como usar os parâmetros dos links internos e externos em HTML<br>
 Eles funcionam basicamente da mesma maneira, que é: `<a href="" target="" rel="" download="" type="">texto clicável</a>`<br>
