@@ -1,3 +1,7 @@
+## Links para acesso aos sites:
+[Site](https://andersonr-o.github.io/Html-Css/tipografia/fontes-da-web/fonte01.html) aonde testo diferentes fontes.<br>
+Outro [Site](https://andersonr-o.github.io/Html-Css/tipografia/fontes-da-web/fonte02.html) com o mesmo objetivo.
+
 # Fontes Online e Internas
  Nesse artigo veremos como usar fontes em nosso CSS sem precisar baixá-las, como usá-las se quisermos baixá-las, quais são os seus formatos e como capturar as fontes de um site através de um plug-in.
 ## Google Fonts
