@@ -1,3 +1,7 @@
+## Links para acesso aos sites:
+[Site](https://andersonr-o.github.io/Html-Css/modelos-de-box/box.html) exemplo de manipulação de box com CSS;<br>
+Outro [Site](https://andersonr-o.github.io/Html-Css/modelos-de-box/box02.html) de manipulação de box, mas dessa vez manipulando as grouping tags (header, main, footer, etc.).
+
 # Entendendo a anatomia das caixas
  As caixas em HTML são os espaços que os textos são inseridos.<br>
  Elas são divididas por camadas, então imagine:<br>
