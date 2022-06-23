@@ -1,6 +1,6 @@
 # HTML5-CSS3
 Tudo o que foi aprendido por mim sobre HTML5 e CSS3 será postado aqui dentro.<br><br>
-**Observação: dentro de cada artigo há o link para acessar o site referente ao tema do artigo**
+**Observação: dentro de cada artigo há o link para acessar o site referente ao tema do artigo.**
 ## Lista de ordem de leitura:
 1. [Listas](https://github.com/andersonr-o/HTML5-CSS3/tree/Listas)
 2. <a href="https://github.com/andersonr-o/HTML5-CSS3/tree/Modelos-de-Box">Links</a>
