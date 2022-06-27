@@ -1,7 +1,7 @@
 ## Link para acesso aos sites:
 
 [Site com os tipos de preenchimento de uma caixa](https://andersonr-o.github.io/Html-Css/Usando-Imagens-de-Fundo/fundo01.html)<br>
-[Site mostrando o background-repeat](https://andersonr-o.github.io/Html-Css/Usando-Imagens-de-Fundo/fundo02.html)<br><br>
+[Site mostrando o background-repeat](https://andersonr-o.github.io/Html-Css/Usando-Imagens-de-Fundo/fundo02.html)
 
 O primeiro site mostra as três maneiras que temos de preencher uma box e também contém uma imagem de fundo na sua estrutura.<br>
 O segundo site é uma demonstração do que veremos no artigo. Lá está sendo mostrado o repeat-y.
