@@ -1,4 +1,4 @@
-## Link para acesso ao site:
+## Link para acesso aos sites:
 [Site somente com o gradiente (degradê)](https://andersonr-o.github.io/Html-Css/cores/degrade/degrade-puro.html)<br>
 [Site com o degradê e um pouco de conteúdo demonstrativo](https://andersonr-o.github.io/Html-Css/cores/degrade/site-exemplo.html)<br><br>
 Nestes sites demonstrativos também podemos ver que os conhecimentos adquiridos no [Artigo sobre Representação das Cores](https://github.com/andersonr-o/HTML5-CSS3/tree/Representando-Cores) e suas diferentes formas de usá-lo foram aplicadas, principalmente a hexadecimal.
