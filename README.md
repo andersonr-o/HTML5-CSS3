@@ -16,6 +16,7 @@ Tudo o que foi aprendido por mim sobre HTML5 e CSS3 será postado aqui dentro.<b
 12. [Alinhamento e Recuo](https://github.com/andersonr-o/HTML5-CSS3/tree/Alinhamento-e-Recuo)
 13. [Seletores](https://github.com/andersonr-o/HTML5-CSS3/tree/Seletores)
 14. [Pseudo Classes e Pseudo Elementos](https://github.com/andersonr-o/HTML5-CSS3/tree/Pseudo-Class-Pseudo-Elementos)
-15. [Modelos de Box](https://github.com/andersonr-o/HTML5-CSS3/tree/Modelos-de-Box)<br><br>
+15. [Modelos de Box](https://github.com/andersonr-o/HTML5-CSS3/tree/Modelos-de-Box)
+16. [Usando Imagens de Fundo](https://github.com/andersonr-o/HTML5-CSS3/tree/Usando-Imagens-de-Fundo)<br><br>
 
 Essa ordem foi a ordem na qual eu estudei e estou estudando HTML e CSS e, por conseguinte, pode ser uma boa ordem de leitura.
