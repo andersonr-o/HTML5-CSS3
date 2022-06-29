@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(Imgs/wallpaper001.jpg);
+}
+
+h1{
+    display: inline-block;
+}
+
+.pai{
+    text-align: center;
+}
+
+.mae1{
+    display: inline-block;
+    text-align: center;
+    float: left;
+}
+
+.mae2{
+    display: inline-block;
+    text-align: center;
+}
+
+.mae3{
+    display: inline-block;
+    text-align: center;
+    float: right;
+}
+
+
+.quadrado{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+}
+
+#q1{
+    background-color: skyblue;
+}
+
+#q2{
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+#q3{
+    background-image: url(Imgs/pattern001.png);
+}
