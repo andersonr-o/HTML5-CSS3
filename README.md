@@ -1,37 +1,31 @@
-## Link para Acesso ao Site:
+# Criando Tabelas em HTML
 
-[Site mostrando o cover na imagem de fundo](https://andersonr-o.github.io/Html-Css/Tamanho-da-Imagem-de-Fundo/fundo05.html)
+## Hierarquia de Tabelas
 
-Embora o cover redimensione a imagem, nem sempre é possível não deixar espaço em branco com ele. Uma prova disso é quando minimizamos esse site.
+Para criar tabelas em HTML, antes precisamos entender a  hierarquia dos elementos, senão os dados aparecerão em lugares aleatórios e bagunçará o layout.
 
-# Mudando o Tamanho da Imagem de Fundo
+Table = Tabela ><br>
+Table Row (&lt;tr&gt;) = Linha de tabela ><br>
+Table Header (&lt;th&gt;) = Cabeçalho de Tabela ><br>
+Table Data (&lt;td&gt;) = Dados de Tabela.
 
-## Considerações Importantes
+## Criando bordas na Tabela
 
-Em um site, o browser interpreta primeiramente o conteúdo e só depois a imagem, então pode acontecer de só mostrar o conteúdo e só depois de alguns segundos mostrar a imagem, quando o site carregar completamente.<br><br>
+A tabela começa sem nada em volta, somente com o conteúd, isso significa que temos que criar a borda na CSS.
 
-Saber disso é importante para cuidarmos do conteúdo e de tudo o que não é imagem, evitando que o usuário se assuste ou se entendie com uma tela incomum.
+Para isso, usamos o border. O ```border: 1px solid black;``` no td.
 
-## Elemento Usado para Mudar o Tamanho da Imagem
+A tabela ficaria assim:
 
-Usamos, para isso, o background-size. Há algumas maneiras de definir o tamanho. Vou comentar quatro delas e suas características.
+![tabela-bordeada](https://user-images.githubusercontent.com/97858145/176796267-c8bb7f2d-a7ef-4e45-87b2-ccaa789fcbf7.png)
 
-### Background-size: Xpx;
 
-Essa configuração mostra a imagem em uma tela de x pixels, mas ao aumentar ou diminui-la, ela deixa o conteúdo do body mais vazio.
+Quando criamos a tabela, ela fica um pouco separada entre os td's.
 
-### Background-size: X% X%;
+Isso acontece porque o border-collapse padrão da **tabela** é separate.<br>
 
-Mostra a imagem na tela inteira (100%), mas quanto menor a tela, mais achatada a imagem; e quanto maior a tela, mais esticada a imagem (nesse caso já está em 100%, então não esticaria).<br>
-Essa configuração, por exemplo, exige ```height: 100%;``` no fundo.
+Ao usarmos ```border:-collapse: collapse;```, todos os dados da tabela ficam ainda mais juntos, como se esttivéssemos criando uma tabela no Excel mesmo.<br>
 
-### Background-size: contain;
+Veja na imagem abaixo:<br>
 
-Exibe a imagem cheia e sem achatar ou esticar nas mudanças de tela, mas usa o tamanho real da imagem.<br><br>
-
-Isso quer dizer que se tivéssemos uma imagem com um width menor que o width da caixa dela (o fundo do site, por exemplo), as laterais ficariam vazias. A mesma coisa poderia acontecer com o topo, com a parte de baixo, etc.
-
-### Background-size: cover;
-
-O cover preenche o fundo inteiramente com a imagem, mesmo que a imagem tenha um tamanho diferente da caixa. Em mudanças de tamanho de tela a inagem continua preenchendo a totalidade do fundo.<br><br>
-Tudo isso porque o cover redimensiona o tamanho da imagem automaticamente e faz ela se igualar ao tamanho da caixa de fundo, sem deixar nenhum espaço vazio.<br><br>
+![tabela-border-collapse](https://user-images.githubusercontent.com/97858145/176796359-176ffbeb-c744-45ff-8e61-c7fac0e68632.png)
