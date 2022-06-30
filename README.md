@@ -1,27 +1,23 @@
-## Link para Acesso ao Site:
+## Link para Acesso ao Site
 
-[Site mostrando o bgposition](https://andersonr-o.github.io/Html-Css/Posi%C3%A7%C3%A3o-da-Imagem-de-Fundo/fundo03.html)<br>
-[Site para testar na sua casa e ver que o bgposition realmente funciona](https://andersonr-o.github.io/Html-Css/Posi%C3%A7%C3%A3o-da-Imagem-de-Fundo/fundo04.html)
+[Site demonstrando o attachment fixed](https://andersonr-o.github.io/Html-Css/Attachment-e-Background-Shorthand/fundo06.html)
 
-O primeiro site mostra como o background-position influencia em uma imagem que colocamos em uma caixa.<br><br>
-Já o segundo site nos mostra, delineadamente, aonde está cada posição de uma imagem para fazermos uma CSS melhor.
+# Attachment e Shorthand
 
-# Configurando a Posição da Imagem de Fundo
+## Background-attachment
 
-## Background-position
+Podemos dizer que o background-attachment dita a maneira de como o fundo irá funcionar. Veremos duas opções de attachment.
 
-O background-position coloca a posição desejada de uma imagem na box em questão. Se quiséssemos ressaltar o canto direito superior da imagem, usaríamos: ```background-position: right top;```.<br><br>
+### Fixed:
 
-Essa, inclusive, é a sua sintaxe. Usamos sempre duas posições, assim referenciamos a imagem no fundo como se ela estivesse sobre um plano cartesiano, como demonstrado no artigo sobre [Centralização Vertical de Caixas](https://github.com/andersonr-o/HTML5-CSS3/tree/Alinhamento-Vertical-de-Caixas).<br><br>
+O ```background-attachment: fixed;``` faz com que o fundo fique fixo à tela. Isso quer dizer que o fundo que carregar e o usuário ver primeiramente não vai mudar até o fim do site lá embaixo.
 
-**Exemplos de background-position:**<br><br>
+Com essa propriedade, podemos definir uma imagem de fundo, e quando o usuário rolar o conteúdo, a imagem será a mesma, pois ela estará congelada.
 
-```background-position: left bottom;```, ```background-position: center center;```, ```background-position: center top;```, etc.<br><br>
+Para uma melhor ilustração, veja no [site](https://andersonr-o.github.io/Html-Css/Attachment-e-Background-Shorthand/fundo06.html) como fica.
 
-Exemplos visuais podem ser vistos no primeiro [site](https://andersonr-o.github.io/Html-Css/Posi%C3%A7%C3%A3o-da-Imagem-de-Fundo/fundo03.html). Não só vistos, mas você também pode olhar a imagem inteira nos arquivos "Imgs" e tentar descobrir qual parte está referenciada.<br><br>
+### Scroll
 
-O background-position define o ponto de referência também.<br><br>
+O ```background-attachment: scroll;``` é a configuração padrão. Ela fará com que o fundo role junto com o conteúdo.
 
-Por exemplo, se o background-position está "left center" e eu diminuir a aba do browser, a imagem sera diminuída junto, mas mostrando o lado left center dela, nesse caso.<br><br>
-
-Teste você mesmo acessando o site anexado no cabeçalho do artigo.
+Se houver uma imagem no fundo e o conteúdo ir até lá embaixo no site, necessitando da rolagem para baixo, a imagem será repetida, ao contrário do fixed que prenderia a mesma imagem ao fundo independentemente da posição de rolagem do site.
