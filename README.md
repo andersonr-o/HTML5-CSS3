@@ -1,23 +1,37 @@
-## Link para Acesso ao Site
+## Link para Acesso ao Site:
 
-[Site demonstrando o attachment fixed](https://andersonr-o.github.io/Html-Css/Attachment-e-Background-Shorthand/fundo06.html)
+[Site mostrando o cover na imagem de fundo](https://andersonr-o.github.io/Html-Css/Tamanho-da-Imagem-de-Fundo/fundo05.html)
 
-# Attachment e Shorthand
+Embora o cover redimensione a imagem, nem sempre é possível não deixar espaço em branco com ele. Uma prova disso é quando minimizamos esse site.
 
-## Background-attachment
+# Mudando o Tamanho da Imagem de Fundo
 
-Podemos dizer que o background-attachment dita a maneira de como o fundo irá funcionar. Veremos duas opções de attachment.
+## Considerações Importantes
 
-### Fixed:
+Em um site, o browser interpreta primeiramente o conteúdo e só depois a imagem, então pode acontecer de só mostrar o conteúdo e só depois de alguns segundos mostrar a imagem, quando o site carregar completamente.<br><br>
 
-O ```background-attachment: fixed;``` faz com que o fundo fique fixo à tela. Isso quer dizer que o fundo que carregar e o usuário ver primeiramente não vai mudar até o fim do site lá embaixo.
+Saber disso é importante para cuidarmos do conteúdo e de tudo o que não é imagem, evitando que o usuário se assuste ou se entendie com uma tela incomum.
 
-Com essa propriedade, podemos definir uma imagem de fundo, e quando o usuário rolar o conteúdo, a imagem será a mesma, pois ela estará congelada.
+## Elemento Usado para Mudar o Tamanho da Imagem
 
-Para uma melhor ilustração, veja no [site](https://andersonr-o.github.io/Html-Css/Attachment-e-Background-Shorthand/fundo06.html) como fica.
+Usamos, para isso, o background-size. Há algumas maneiras de definir o tamanho. Vou comentar quatro delas e suas características.
 
-### Scroll
+### Background-size: Xpx;
 
-O ```background-attachment: scroll;``` é a configuração padrão. Ela fará com que o fundo role junto com o conteúdo.
+Essa configuração mostra a imagem em uma tela de x pixels, mas ao aumentar ou diminui-la, ela deixa o conteúdo do body mais vazio.
 
-Se houver uma imagem no fundo e o conteúdo ir até lá embaixo no site, necessitando da rolagem para baixo, a imagem será repetida, ao contrário do fixed que prenderia a mesma imagem ao fundo independentemente da posição de rolagem do site.
+### Background-size: X% X%;
+
+Mostra a imagem na tela inteira (100%), mas quanto menor a tela, mais achatada a imagem; e quanto maior a tela, mais esticada a imagem (nesse caso já está em 100%, então não esticaria).<br>
+Essa configuração, por exemplo, exige ```height: 100%;``` no fundo.
+
+### Background-size: contain;
+
+Exibe a imagem cheia e sem achatar ou esticar nas mudanças de tela, mas usa o tamanho real da imagem.<br><br>
+
+Isso quer dizer que se tivéssemos uma imagem com um width menor que o width da caixa dela (o fundo do site, por exemplo), as laterais ficariam vazias. A mesma coisa poderia acontecer com o topo, com a parte de baixo, etc.
+
+### Background-size: cover;
+
+O cover preenche o fundo inteiramente com a imagem, mesmo que a imagem tenha um tamanho diferente da caixa. Em mudanças de tamanho de tela a inagem continua preenchendo a totalidade do fundo.<br><br>
+Tudo isso porque o cover redimensiona o tamanho da imagem automaticamente e faz ela se igualar ao tamanho da caixa de fundo, sem deixar nenhum espaço vazio.<br><br>
