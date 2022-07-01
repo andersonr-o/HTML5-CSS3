@@ -1,35 +1,15 @@
 ## Link para Acesso ao Site:
 
-[Site com tabela com um pouco de CSS](https://andersonr-o.github.io/Html-Css/Criando-Tabelas/tabela01.html)
+[Site com tabela alinhada por dentro]() 
 
-# Criando Tabelas em HTML
+# Alinhando Tabelas
 
-## Hierarquia de Tabelas
+É, na verdade, muito simples fazer isso. Basta usarmos a propriedade vertical-align.
 
-Para criar tabelas em HTML, antes precisamos entender a  hierarquia dos elementos, senão os dados aparecerão em lugares aleatórios e bagunçará o layout.
+Se usarmos ``vertical-align: top;```, por exemplo, os textos de dentro da tabela ficariam na parte esquerda superior.
 
-Table = Tabela ><br>
-Table Row (&lt;tr&gt;) = Linha de tabela ><br>
-Table Header (&lt;th&gt;) = Cabeçalho de Tabela ><br>
-Table Data (&lt;td&gt;) = Dados de Tabela.
+Se usássemos o ```text-align: center;``` juntamente com o vertical-align, os textos ficariam no centro e na parte de cima. Por exemplo:
 
-## Criando bordas na Tabela
+![tabela-vertical](https://user-images.githubusercontent.com/97858145/176797845-5e2d1668-70bf-497c-a937-764d8821490c.png)
 
-A tabela começa sem nada em volta, somente com o conteúd, isso significa que temos que criar a borda na CSS.
-
-Para isso, usamos o border. O ```border: 1px solid black;``` no td.
-
-A tabela ficaria assim:
-
-![tabela-bordeada](https://user-images.githubusercontent.com/97858145/176796267-c8bb7f2d-a7ef-4e45-87b2-ccaa789fcbf7.png)
-
-
-Quando criamos a tabela, ela fica um pouco separada entre os td's.
-
-Isso acontece porque o border-collapse padrão da **tabela** é separate.<br>
-
-Ao usarmos ```border:-collapse: collapse;```, todos os dados da tabela ficam ainda mais juntos, como se esttivéssemos criando uma tabela no Excel mesmo.<br>
-
-Veja na imagem abaixo:<br>
-
-![tabela-border-collapse](https://user-images.githubusercontent.com/97858145/176796359-176ffbeb-c744-45ff-8e61-c7fac0e68632.png)
+Também há outras possibilidades, como o o middle (nesse caso somente o ```text-align: center;``` já resolveria) e o bottom (parte inferior).
