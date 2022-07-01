@@ -17,6 +17,12 @@ Tudo o que foi aprendido por mim sobre HTML5 e CSS3 será postado aqui dentro.<b
 13. [Seletores](https://github.com/andersonr-o/HTML5-CSS3/tree/Seletores)
 14. [Pseudo Classes e Pseudo Elementos](https://github.com/andersonr-o/HTML5-CSS3/tree/Pseudo-Class-Pseudo-Elementos)
 15. [Modelos de Box](https://github.com/andersonr-o/HTML5-CSS3/tree/Modelos-de-Box)
-16. [Usando Imagens de Fundo](https://github.com/andersonr-o/HTML5-CSS3/tree/Usando-Imagens-de-Fundo)<br>
+16. [Usando Imagens de Fundo](https://github.com/andersonr-o/HTML5-CSS3/tree/Usando-Imagens-de-Fundo)
+17. [Posicionando Imagens de Fundo](https://github.com/andersonr-o/HTML5-CSS3/tree/Posi%C3%A7%C3%A3o-da-Imagem-de-Fundo)
+18. [Tamanho da Imagem de Fundo](https://github.com/andersonr-o/HTML5-CSS3/tree/Tamanho-da-Imagem-de-Fundo)
+19. [Attachment e Background Shorthand](https://github.com/andersonr-o/HTML5-CSS3/tree/Attachment-e-Background-Shorthand)
+20. [Alinhamento Vertical de Caixas](https://github.com/andersonr-o/HTML5-CSS3/tree/Alinhamento-Vertical-de-Caixas)
+21. [Criando Tabelas](https://github.com/andersonr-o/HTML5-CSS3/tree/Criando-Tabelas)
+22. [Alinhando Tabelas](https://github.com/andersonr-o/HTML5-CSS3/tree/Alinhando-Tabelas)<br>
 
 Essa ordem foi a ordem na qual eu estudei e estou estudando HTML e CSS e, por conseguinte, pode ser uma boa ordem de leitura.
