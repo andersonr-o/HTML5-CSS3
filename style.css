@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom, blue, violet);
+    background-attachment: fixed;
+  }
+  header, h1{
+    text-align: center;
+    margin: auto; /* assim fica centralizado, porém não fica responsivo -> margin: 4% auto auto auto;*/
+    padding: 8px;
+  }
+  
+  
+  label{
+    font-size: 1.4em;
+    padding: 10px;
+  }
+  .labusuario{
+    display: block;
+  }
+  .labsenha{
+      margin-top: 15px;
+      display: inline-block;
+  }
+
+  a{
+    float: right;
+    margin-top: 37px;
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+  input, button{
+      margin-left: 5px;
+      display: block;
+      width: 90%;
+      border-radius: 5px;
+      box-shadow: 2px 2px 2px black;
+      padding: 5px;
+  }
+  input::placeholder{
+    text-align: right;
+    font-size: medium;
+  }
+  input:focus::placeholder{
+      visibility: hidden;
+      /*Também é possível usando variável:
+      --invisible: hidden;
+      visibility: var(--invisible);*/
+  }
+  button.botao{
+      width: 300px;
+      background-color: blueviolet;
+      font-size: medium;
+  }
+
+  section{
+    background-color: mediumpurple;
+    width: 300px; /*width quebrando centralização == só usar margin: auto;*/
+    height: 220px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 25px 40px 40px 40px
+  }
+  p{
+      font-weight: bold;
+      text-align: center;
+  }
+
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track{
+    background: #3e00cf;
+    border-radius: 30px;
+  }
+
+  ::-webkit-scrollbar-thumb{
+    background: #310d46;
+    border-radius: 30px;
+  }
+
+  /* Centralizando um único elemento na horizontal e vertical em relação à pagina:
+  width: 100vw; -> a largura do elemento ocupará 100% da página
+  height: 100vh; -> a altura do elemento ocupará 100% da página
+  display: flex; -> faz o layout do elemento ser flexível
+  flex-direction: row; -> faz com que os elementos INTERNOS sejam dispostos horizontalmente (no caso do h1 não há necessidade)
+  justify-content: center; -> os itens internos ficam no centro da linha (horizontalmente) com essa propriedade
+  align-items: center; -> mesma coisa do justify-content, mas dessa vez eles ficam no centro verticalmente */
