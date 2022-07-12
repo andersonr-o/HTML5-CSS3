@@ -1,13 +1,23 @@
 # HTML5-CSS3
 Tudo o que foi aprendido por mim sobre HTML5 e CSS3 será postado aqui dentro.<br><br>
 **Observação: dentro de cada artigo há o link para acessar o site referente ao tema do artigo.**
-## Lista de ordem de leitura:
+
+## Lista de ordem de leitura
+
+### Projetos:
+
+1. [Projeto Site Simples](https://github.com/andersonr-o/HTML5-CSS3/tree/Projeto-Site-Simples)
+2. [Formulário Simples](https://github.com/andersonr-o/HTML5-CSS3/tree/Formul%C3%A1rio-Simples)
+3. [Projeto Android](https://github.com/andersonr-o/HTML5-CSS3/tree/Projeto-Android)
+4. [Meu Poema Favorito]()
+
+### Conteúdo:
+
 1. [Listas](https://github.com/andersonr-o/HTML5-CSS3/tree/Listas)
 2. <a href="https://github.com/andersonr-o/HTML5-CSS3/tree/Modelos-de-Box">Links</a>
 3. [Mídias Dinâmicas](https://github.com/andersonr-o/HTML5-CSS3/tree/M%C3%ADdias-Din%C3%A2micas)
 4. [Vídeos](https://github.com/andersonr-o/HTML5-CSS3/tree/V%C3%ADdeos)
-5. [Projeto Site Simples](https://github.com/andersonr-o/HTML5-CSS3/tree/Projeto-Site-Simples)
-6. [Representando Cores](https://github.com/andersonr-o/HTML5-CSS3/tree/Representando-Cores)
+5. [Representando Cores](https://github.com/andersonr-o/HTML5-CSS3/tree/Representando-Cores)
 7. [Degradê](https://github.com/andersonr-o/HTML5-CSS3/tree/Degrad%C3%AA)
 8. [Anatomia Tipográfica](https://github.com/andersonr-o/HTML5-CSS3/tree/Anatomia-Tipogr%C3%A1fica)
 9. [Classificação Tipográfica](https://github.com/andersonr-o/HTML5-CSS3/tree/Classifica%C3%A7%C3%A3o-Tipogr%C3%A1fica)
