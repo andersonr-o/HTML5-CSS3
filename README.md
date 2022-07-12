@@ -1,5 +1,4 @@
 ## Link para acesso ao site:
-
 Link do [Site](https://andersonr-o.github.io/Html-Css/Projeto-Android/site-desafio.html) Informativo do Android.
 
 
