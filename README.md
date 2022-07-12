@@ -1,7 +1,7 @@
 ## Link para acesso ao site:
 Link do site do [Projeto](https://andersonr-o.github.io/Html-Css/Projeto-Poema/index.html).
 
-# Sobre
+# Sobre o Projeto
 
 Projeto inspirado no [projeto cordel](https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-02/d012) do professor Guanabara.<br><br>
 
