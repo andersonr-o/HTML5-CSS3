@@ -1,17 +1,37 @@
 ## Link para Acesso ao Site:
 
-[Tabela com Cabeçalho Fixo](https://andersonr-o.github.io/Html-Css/Cabe%C3%A7alho-Fixo-em-Tabelas/tabela02.html)
+[Tabela Demonstrativa de Disciplinas x Notas](https://andersonr-o.github.io/Html-Css/Mesclagem-de-C%C3%A9lulas/tabela-desafio02.html)
 
-# Cabeçalho Fixo em Tabelas Grandes
+[Tabela Exemplo Simples](https://andersonr-o.github.io/Html-Css/Mesclagem-de-C%C3%A9lulas/tabela03.html)
 
-Para fazermos o cabeçalho da tabela rolar junto com a tabela, precisamos deixar o &lt;table&gt; como ``position: relative`` e o &lt;tr&gt; do cabeçalho com as seguintes configurações:
+[Mais Duas Tabelas Exemplos](https://andersonr-o.github.io/Html-Css/Mesclagem-de-C%C3%A9lulas/tabela04(def).html)
 
-``position: sticky;`` &rightarrow; para o cabeçalho rolar junto 
+# Mesclagem de Células
 
-``top: -1px`` &rightarrow; para ele ficar alinhado com a tabela (se estívessemos fazendo um rodapé fixo, usaríamos ``bottom: -1px;``)
+Para mesclar células nas tabelas em HTML, usamos o "colspan" e o "rowspan", no mesmo lugar que usamos os seletores.
 
-``background-color: mesma cor do <tr> de antes``
+Se temos uma tabela A | B | Ø | e queremos que o B ocupe a posição do vazio, usamos:
 
-## Resultado Final:
+``<td colspan="2">B</td>``
 
-https://user-images.githubusercontent.com/97858145/179428411-d2a90127-3378-4d8f-89fd-71a86d3a61c4.webm
+Ou seja, o &lt;td&gt;B&lt;/td&gt; ocupará duas colunas (a dele e a seguinte).
+
+Ficaria assim:
+
+![mesclagem-de-celulas](https://user-images.githubusercontent.com/97858145/179429200-80d78b4d-806f-4ecf-a66d-d566baeaaff9.png)
+
+Agora, em uma tabela
+
+1 | 2 | 3 | 4 |
+
+5 | 6 | Ø | 7 |
+
+e quiséssemos que o 3 ocupe a linha debaixo, usamos o rowspan, ficando assim:
+
+``<td rowspan="2">3</td>``
+
+Veja como ficaria:
+
+![rowspan-mesclagem](https://user-images.githubusercontent.com/97858145/179429361-8bb73dc0-feaa-4bc1-aef0-6000d6a92797.png)
+
+Recapitulando: "Rowspan" para mesclagem de linhas e "Colspan" para mesclagem de colunas.
