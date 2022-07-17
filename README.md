@@ -16,9 +16,8 @@ Para isso, usamos a [pseudo-classe](https://github.com/andersonr-o/HTML5-CSS3/tr
 
 Para um efeito zebrado nas linhas da tabela, o código ficaria assim:
 
-``tr:nth-child(2n){``
-
-    ``background-color: gray;``
+``tr:nth-child(2n){``<br>
+    ``background-color: gray;``<br>
 ``}``
 
 Isto é, de duas em duas linhas haverá fundo na cor cinza.
@@ -27,9 +26,8 @@ Se a tabela estiver num body branco o efeito zebrado já está pronto.
 
 Agora, se o background-color do body for diferente, basta repetir a pseudo-class para as outras linhas, ficando assim:
 
-``tr:nth-child(2n-1){``
-
-    ``background-color: white;``
+``tr:nth-child(2n-1){``<br>
+    ``background-color: white;``<br>
 ``}``
 
 Assim as linhas que não são cinzas serão brancas.
