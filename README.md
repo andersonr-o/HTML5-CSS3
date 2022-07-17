@@ -1,37 +1,17 @@
 ## Link para Acesso ao Site:
 
-[Tabela com Efeito Zebrado](https://andersonr-o.github.io/Html-Css/Efeito-Zebrado-em-Tabelas/tabela02.html)
+[Tabela com Cabeçalho Fixo](https://andersonr-o.github.io/Html-Css/Cabe%C3%A7alho-Fixo-em-Tabelas/tabela02.html)
 
-# Efeito Zebrado em Tabelas
+# Cabeçalho Fixo em Tabelas Grandes
 
-Para criar efeito zebrado em tabelas HTML (linha branca - linha cinza), usamos uma propriedade simples na CSS que faz todo o trabalho automático, em vez de selecionarmos manualmente linha por linha.
+Para fazermos o cabeçalho da tabela rolar junto com a tabela, precisamos deixar o &lt;table&gt; como ``position: relative`` e o &lt;tr&gt; do cabeçalho com as seguintes configurações:
 
-Isso é bom porque evita trabalho desnecessário caso uma linha nova seja adicionada na tabela mais para frente e ela for muito grande.
+``position: sticky;`` &rightarrow; para o cabeçalho rolar junto 
 
-Todo o trabalho de selecionar linha por linha teria de ser feito caso essa propriedade não existisse.
+``top: -1px`` &rightarrow; para ele ficar alinhado com a tabela (se estívessemos fazendo um rodapé fixo, usaríamos ``bottom: -1px;``)
 
-## Criando o Efeito
+``background-color: mesma cor do <tr> de antes``
 
-Para isso, usamos a [pseudo-classe](https://github.com/andersonr-o/HTML5-CSS3/tree/Pseudo-Class-Pseudo-Elementos) ":nth-child()".
+## Resultado Final:
 
-Para um efeito zebrado nas linhas da tabela, o código ficaria assim:
-
-``tr:nth-child(2n){``
-
-    ``background-color: gray;``
-``}``
-
-Isto é, de duas em duas linhas haverá fundo na cor cinza.
-
-Se a tabela estiver num body branco o efeito zebrado já está pronto.
-
-Agora, se o background-color do body for diferente, basta repetir a pseudo-class para as outras linhas, ficando assim:
-
-``tr:nth-child(2n-1){``
-
-    ``background-color: white;``
-``}``
-
-Assim as linhas que não são cinzas serão brancas.
-
-No lugar de "2n" e "2n-1" também podemos usar "even" e "odd" (par e ímpar). Todas as linhas pares colocamos de cinza e todas as ímpares colocamos de branco.
+https://user-images.githubusercontent.com/97858145/179428411-d2a90127-3378-4d8f-89fd-71a86d3a61c4.webm
