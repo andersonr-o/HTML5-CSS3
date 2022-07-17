@@ -1,6 +1,6 @@
 ## Link para Acesso ao Site:
 
-[Site Com Tabela Grande](https://andersonr-o.github.io/Html-Css/Tabelas-Grandes/tabela02.html) 
+[Site com Tabela Grande](https://andersonr-o.github.io/Html-Css/Tabelas-Grandes/tabela02.html) 
 
 # Como Trabalhar com Tabelas Grandes
 
