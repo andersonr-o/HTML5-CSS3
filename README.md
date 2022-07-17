@@ -1,7 +1,6 @@
 ## Link para Acesso ao Site:
 
-[Site de uma Tabela Completa](https://andersonr-o.github.io/Html-Css/Escopos-de-T%C3%ADtulo/tabela-completa.html)
-
+[Site de uma Tabela Completa](https://andersonr-o.github.io/Html-Css/Escopos-de-T%C3%ADtulo/tabela-completa.html)<br>
 [Site das Imagens do Texto](https://andersonr-o.github.io/Html-Css/Escopos-de-T%C3%ADtulo/tabela-exemplo.html) 
 
 # Escopo de Título em Tabelas
