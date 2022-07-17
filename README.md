@@ -35,6 +35,6 @@ Tudo o que foi aprendido por mim sobre HTML5 e CSS3 será postado aqui dentro.<b
 20. [Criando Tabelas](https://github.com/andersonr-o/HTML5-CSS3/tree/Criando-Tabelas)
 21. [Alinhando Tabelas](https://github.com/andersonr-o/HTML5-CSS3/tree/Alinhando-Tabelas)
 22. [Trabalhando com Tabelas Grandes](https://github.com/andersonr-o/HTML5-CSS3/tree/Tabelas-Grandes)
-23. [Escopos em Tabelas](https://github.com/andersonr-o/HTML5-CSS3/blob/Escopos-de-Tabela/)<br>
+23. [Escopos em Tabelas](https://github.com/andersonr-o/HTML5-CSS3/tree/Escopos-de-Tabela)<br>
 
 Essa ordem foi a ordem na qual eu estudei e estou estudando HTML e CSS e, por conseguinte, pode ser uma boa ordem de leitura.
