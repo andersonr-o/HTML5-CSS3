@@ -22,8 +22,7 @@ Ficaria assim:
 
 Agora, em uma tabela
 
-1 | 2 | 3 | 4 |
-
+1 | 2 | 3 | 4 |<br>
 5 | 6 | Ø | 7 |
 
 e quiséssemos que o 3 ocupe a linha debaixo, usamos o rowspan, ficando assim:
