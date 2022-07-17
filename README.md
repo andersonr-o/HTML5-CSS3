@@ -6,7 +6,7 @@
 
 É, na verdade, muito simples fazer isso. Basta usarmos a propriedade vertical-align.
 
-Se usarmos ``vertical-align: top;```, por exemplo, os textos de dentro da tabela ficariam na parte esquerda superior.
+Se usarmos ```vertical-align: top;```, por exemplo, os textos de dentro da tabela ficariam na parte esquerda superior.
 
 Se usássemos o ```text-align: center;``` juntamente com o vertical-align, os textos ficariam no centro e na parte de cima. Por exemplo:
 
