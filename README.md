@@ -37,6 +37,7 @@ Tudo o que foi aprendido por mim sobre HTML5 e CSS3 será postado aqui dentro.<b
 22. [Trabalhando com Tabelas Grandes](https://github.com/andersonr-o/HTML5-CSS3/tree/Tabelas-Grandes)
 23. [Escopos em Tabelas](https://github.com/andersonr-o/HTML5-CSS3/tree/Escopos-de-Tabela)
 24. [Cabeçalho-Fixo-em-Tabelas](https://github.com/andersonr-o/HTML5-CSS3/tree/Cabe%C3%A7alho-Fixo-em-Tabelas)
-25. [Mesclagem de Células em Tabelas](https://github.com/andersonr-o/HTML5-CSS3/tree/Mesclagem-de-C%C3%A9lulas)<br>
+25. [Mesclagem de Células em Tabelas](https://github.com/andersonr-o/HTML5-CSS3/tree/Mesclagem-de-C%C3%A9lulas)
+26. [Usando Tabelas Responsivas](https://github.com/andersonr-o/HTML5-CSS3/tree/Tabelas-Responsivas)<br>
 
 Essa ordem foi a ordem na qual eu estudei e estou estudando HTML e CSS e, por conseguinte, pode ser uma boa ordem de leitura.
