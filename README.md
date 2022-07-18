@@ -12,13 +12,13 @@ Feito isso, basta vermos para onde a tabela está "vazando" e taparmos o buraco.
 
 Isto é, se a tabela estiver muito longa na horizontal, ela precisa de responsividade na horizontal, mas sela estiver muito larga na vertical, ela precisa de responsividade na vertical.
 
-Tabela larga na horizontal:
+## Tabela larga na horizontal:
 
 ``div#container{``<br>
 ``overflow-x: auto;``<br>
 ``}``
 
-Tabela larga na vertical:
+## Tabela larga na vertical:
 
 ``div#container{``<br>
 ``overflow-y: auto;``<br>
