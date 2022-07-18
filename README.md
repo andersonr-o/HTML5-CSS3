@@ -1,37 +1,22 @@
 ## Link para Acesso ao Site:
 
-[Tabela Demonstrativa de Disciplinas x Notas](https://andersonr-o.github.io/Html-Css/Mesclagem-de-C%C3%A9lulas/tabela-desafio02.html)
+[Site com Tabela Agrupando Colunas](https://andersonr-o.github.io/Html-Css/Agrupando-Colunas-em-Tabelas/tabela-colgroup.html)
 
-[Tabela Exemplo Simples](https://andersonr-o.github.io/Html-Css/Mesclagem-de-C%C3%A9lulas/tabela03.html)
+# Agrupando Colunas na Tabela
 
-[Mais Duas Tabelas Exemplos](https://andersonr-o.github.io/Html-Css/Mesclagem-de-C%C3%A9lulas/tabela04(def).html)
+A tag &lt;colgroup&gt; nos permite selecionar toda uma coluna para formatarmo-la como desejarmos.
 
-# Mesclagem de Células
+Dentro de colgroup, usamos a tag &lt;col&gt;. Cada tag "col" representa uma coluna da nossa tabela. Por exemplo:
 
-Para mesclar células nas tabelas em HTML, usamos o "colspan" e o "rowspan", no mesmo lugar que usamos os seletores.
+``<colgroup>``<br>
+``<col id="1">``<br>
+``<col id="2">``<br>
+``</colgroup>``
 
-Se temos uma tabela A | B | Ø | e queremos que o B ocupe a posição do vazio, usamos:
+A primeira &lt;col&gt; diz respeito à primeira coluna; a segunda &lt;col&gt; diz respeito à segunda coluna, e assim por diante. O próprio HTML faz essa divisão.
 
-``<td colspan="2">B</td>``
+## Span
 
-Ou seja, o &lt;td&gt;B&lt;/td&gt; ocupará duas colunas (a dele e a seguinte).
+Podemos usar uma &lt;col&gt; para duas colunas, basta usarmos ``span="2"``. (A mesma coisa se aplica para mais colunas.)
 
-Ficaria assim:
-
-![mesclagem-de-celulas](https://user-images.githubusercontent.com/97858145/179429200-80d78b4d-806f-4ecf-a66d-d566baeaaff9.png)
-
-Agora, em uma tabela
-
-1 | 2 | 3 | 4 |
-
-5 | 6 | Ø | 7 |
-
-e quiséssemos que o 3 ocupe a linha debaixo, usamos o rowspan, ficando assim:
-
-``<td rowspan="2">3</td>``
-
-Veja como ficaria:
-
-![rowspan-mesclagem](https://user-images.githubusercontent.com/97858145/179429361-8bb73dc0-feaa-4bc1-aef0-6000d6a92797.png)
-
-Recapitulando: "Rowspan" para mesclagem de linhas e "Colspan" para mesclagem de colunas.
+Se usarmos ``<col id="1" span="2">`` significa que aquela "col" refrencia a si mesma e mais uma (total = 2). A referência é sempre sobre a coluna seguinte.
