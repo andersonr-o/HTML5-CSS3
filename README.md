@@ -1,22 +1,27 @@
 ## Link para Acesso ao Site:
 
-[Site com Tabela Agrupando Colunas](https://andersonr-o.github.io/Html-Css/Agrupando-Colunas-em-Tabelas/tabela-colgroup.html)
+[Tabela Responsiva](https://andersonr-o.github.io/Html-Css/Tabelas-Responsivas/tabela-responsiva.html)
 
-# Agrupando Colunas na Tabela
+# Tabelas Responsivas
 
-A tag &lt;colgroup&gt; nos permite selecionar toda uma coluna para formatarmo-la como desejarmos.
+Para criarmos uma tabela responsiva, usamos uma propriedade na CSS chamada "overflow".
 
-Dentro de colgroup, usamos a tag &lt;col&gt;. Cada tag "col" representa uma coluna da nossa tabela. Por exemplo:
+Mas antes disso precisamos envelopar a nossa tabela (&lt;table&gt;) em uma div container.
 
-``<colgroup>``<br>
-``<col id="1">``<br>
-``<col id="2">``<br>
-``</colgroup>``
+Feito isso, basta vermos para onde a tabela está "vazando" e taparmos o buraco.
 
-A primeira &lt;col&gt; diz respeito à primeira coluna; a segunda &lt;col&gt; diz respeito à segunda coluna, e assim por diante. O próprio HTML faz essa divisão.
+Isto é, se a tabela estiver muito longa na horizontal, ela precisa de responsividade na horizontal, mas sela estiver muito larga na vertical, ela precisa de responsividade na vertical.
 
-## Span
+Tabela larga na horizontal:
 
-Podemos usar uma &lt;col&gt; para duas colunas, basta usarmos ``span="2"``. (A mesma coisa se aplica para mais colunas.)
+``div#container{``<br>
+``overflow-x: auto;``<br>
+``}``
 
-Se usarmos ``<col id="1" span="2">`` significa que aquela "col" refrencia a si mesma e mais uma (total = 2). A referência é sempre sobre a coluna seguinte.
+Tabela larga na vertical:
+
+``div#container{``<br>
+``overflow-y: auto;``<br>
+``}``
+
+Minimize a tela da [tabela do site](https://andersonr-o.github.io/Html-Css/Tabelas-Responsivas/tabela-responsiva.html) e teste. Uma barra de scroll será criada para a tabela, mas o site continuará normal.
