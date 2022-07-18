@@ -41,7 +41,7 @@ Simples, não?
 
 ## Escopos de Grupo
 
-Para falarmos de escopos de grupo, primeiramente precisamos entender de [Mesclagem de Células](#)
+Para falarmos de escopos de grupo, primeiramente precisamos entender de [Mesclagem de Células](https://github.com/andersonr-o/HTML5-CSS3/tree/Mesclagem-de-C%C3%A9lulas)
 
 Quando mesclamos uma &lt;th&gt; e seus dados estão em mais de um &lt;td&gt;, usamos os escopos de grupo.
 
