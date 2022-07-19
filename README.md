@@ -1,21 +1,35 @@
 ## Link para Acesso ao Site:
 
-[Site com iframe padrão](https://andersonr-o.github.io/Html-Css/Usando%20iFrames/iFrame001.html)
+[Site com iframe padrão](https://andersonr-o.github.io/Html-Css/Configurando%20iFrames/iFrame002.html)
 
-# Usando iframes
+# Configurando iframes
 
-O iframe é basicamente uma janela, dentro do nosso próprio site, que abriga um site externo.
+Alguns navegadores de dispositivos mobile podem não ter suporte a iframes, por isso colocamos uma âncora no meio do iframe, assim se o iframe não aparecer , temos a âncora para direcionar o usuário para o site desejado.
 
-## Sintaxe:
+Ficaria algo parecido com isso: 
 
-``<iframe src="" frameborder=""> </iframe>``
+``<iframe src="https://www.cursoemvideo.com/" frameborder="0">``
+``<a href="https://www.cursoemvideo.com/"></a>``
+``</iframe>``
 
-Dentro de src, como já vimos em outros artigos, colocamos o link do site a ser exibido.
+Alguns programadores preferem colocar um aviso de que o iframe não está disponível para aquele dispositivo.
 
-Dentro de frameborder colocamos 0 ou um valor qualquer acima de 0.
+O tamanho padrão do iframe é 300px de altura e 150px de largura, mas podemos alterá-lo na CSS normalmente.
 
-O frameborder cria uma borda de 1px em volta do iframe se o seu valor não for igual a 0.
+## Scrooling
 
-## Dentro do iframe
+O scrooling se refere a barra de rolagem em si.
 
-Alguns sites, como o Google, bloqueiam o seu uso em iframes or questão de segurança, portanto usá-lo na medida certa é a melhor opção.
+``scrooling: auto;`` &rightarrow; A barra de rolagem será criada se  conteúdo for maior que 100vh
+
+``scrooling: yes;`` &rightarrow; A barra de rolagem existirá independentemente das circunstâncias.
+
+``scrooling: no;`` &rightarrow; A barra de rolagem não existirá. (Alguns navegadores a criam mesmo assim, se houver necessidade.)
+
+## Frameborder
+
+Frameborder = 0 &rightarrow; Não existe borda no iframe;
+
+Frameborder = qulquer outro número &rightarrow; borda de 1px.
+
+Porém podemos usar "Frameborder = 0" e alterar a borda como quisermos na CSS, pois a configuração da CSS é a que prevalece.
