@@ -8,8 +8,8 @@ Alguns navegadores de dispositivos mobile podem não ter suporte a iframes, por 
 
 Ficaria algo parecido com isso: 
 
-``<iframe src="https://www.cursoemvideo.com/" frameborder="0">``
-``<a href="https://www.cursoemvideo.com/"></a>``
+``<iframe src="https://www.cursoemvideo.com/" frameborder="0">``<br>
+``<a href="https://www.cursoemvideo.com/"></a>``<br>
 ``</iframe>``
 
 Alguns programadores preferem colocar um aviso de que o iframe não está disponível para aquele dispositivo.
