@@ -1,6 +1,6 @@
 ## Link para Acesso ao Site:
 
-[Site com iframe padrão](https://andersonr-o.github.io/Html-Css/Configurando%20iFrames/iFrame002.html)
+[Site com iframe um pouco mais estilizado](https://andersonr-o.github.io/Html-Css/Configurando%20iFrames/iFrame002.html)
 
 # Configurando iframes
 
