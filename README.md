@@ -4,7 +4,7 @@
 
 # Conteúdo Local no iframe
 
-Podemos usar um HTML da nossa m´qauina já criado e alocarmos no nosso novo HTML com o iframe.
+Podemos usar um HTML da nossa máquina já criado e alocarmos no nosso novo HTML com o iframe.
 
 Pegar um HTML que tem uma tabela, por exemplo, e colocarmos essa tabela HTML dentro do nosso próprio e novo site.
 
