@@ -1,35 +1,19 @@
 ## Link para Acesso ao Site:
 
-[Site com iframe padrão](https://andersonr-o.github.io/Html-Css/Configurando%20iFrames/iFrame002.html)
+[Site com iframe local](https://andersonr-o.github.io/Html-Css/Iframes%20Locais/iframe003.html)
 
-# Configurando iframes
+# Conteúdo Local no iframe
 
-Alguns navegadores de dispositivos mobile podem não ter suporte a iframes, por isso colocamos uma âncora no meio do iframe, assim se o iframe não aparecer , temos a âncora para direcionar o usuário para o site desejado.
+Podemos usar um HTML da nossa m´qauina já criado e alocarmos no nosso novo HTML com o iframe.
 
-Ficaria algo parecido com isso: 
+Pegar um HTML que tem uma tabela, por exemplo, e colocarmos essa tabela HTML dentro do nosso próprio e novo site
 
-``<iframe src="https://www.cursoemvideo.com/" frameborder="0">``
-``<a href="https://www.cursoemvideo.com/"></a>``
-``</iframe>``
+Foi isso que fiz no site que anexei no primeiro tópico. Teste, olhe o código "iframe003.html" e veja.
 
-Alguns programadores preferem colocar um aviso de que o iframe não está disponível para aquele dispositivo.
+## Quando fazer isso?
 
-O tamanho padrão do iframe é 300px de altura e 150px de largura, mas podemos alterá-lo na CSS normalmente.
+Uma das vantagens de usar iframe de outro HTML no nosso novo HTML é que eles possuem CSSs diferentes, ou seja, possuem estilos independentes, tudo o que alterar em um não será alterado no outro.
 
-## Scrooling
+Agora, se o conteúdo do iframe tiver diretamente relacionado com o conteúdo do site, é melhor usarmos tudo em um único site e em uma única CSS. No caso do exemplo da tabela daria certo, pois se trata de uma tabela.
 
-O scrooling se refere a barra de rolagem em si.
-
-``scrooling: auto;`` &rightarrow; A barra de rolagem será criada se  conteúdo for maior que 100vh
-
-``scrooling: yes;`` &rightarrow; A barra de rolagem existirá independentemente das circunstâncias.
-
-``scrooling: no;`` &rightarrow; A barra de rolagem não existirá. (Alguns navegadores a criam mesmo assim, se houver necessidade.)
-
-## Frameborder
-
-Frameborder = 0 &rightarrow; Não existe borda no iframe;
-
-Frameborder = qulquer outro número &rightarrow; borda de 1px.
-
-Porém podemos usar "Frameborder = 0" e alterar a borda como quisermos na CSS, pois a configuração da CSS é a que prevalece.
+No caso de um site grande no nosso iframe, podemos mantê-lo assim mesmo ou usar uma âncora, deve-se analisar as circunstâncias.
