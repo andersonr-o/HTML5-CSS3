@@ -1,19 +1,18 @@
 ## Link para Acesso ao Site:
 
-[Site com iframe local](https://andersonr-o.github.io/Html-Css/Iframes%20Locais/iframe003.html)
+[Site com iframe opcional](https://andersonr-o.github.io/Html-Css/Navegando-em-iframes/iframe004.html)
 
-# Conteúdo Local no iframe
+# Navegando no iframe
 
-Podemos usar um HTML da nossa m´qauina já criado e alocarmos no nosso novo HTML com o iframe.
+Você sabia que conseguimos criar uma caixa vazia e preenchê-la quando o usuário clicar em um link?
 
-Pegar um HTML que tem uma tabela, por exemplo, e colocarmos essa tabela HTML dentro do nosso próprio e novo site
+Para isso basta criar um iframe com nome e um link/âncora com target="nome do iframe".
 
-Foi isso que fiz no site que anexei no primeiro tópico. Teste, olhe o código "iframe003.html" e veja.
+Por exemplo:
 
-## Quando fazer isso?
+``<a href="site-estrela.com" target="xyz"> Clique Aqui!</a>``<br>
+``<iframe name="xyz" src=""></iframe>``
 
-Uma das vantagens de usar iframe de outro HTML no nosso novo HTML é que eles possuem CSSs diferentes, ou seja, possuem estilos independentes, tudo o que alterar em um não será alterado no outro.
+Perceba que o name do iframe é = "xyz" e o target do link também.
 
-Agora, se o conteúdo do iframe tiver diretamente relacionado com o conteúdo do site, é melhor usarmos tudo em um único site e em uma única CSS. No caso do exemplo da tabela daria certo, pois se trata de uma tabela.
-
-No caso de um site grande no nosso iframe, podemos mantê-lo assim mesmo ou usar uma âncora, deve-se analisar as circunstâncias.
+Quando o usuário clicar na âncora/link, o site estrela (fictício, nesse caso) será exibido no iframe, pois eles estão conectados.
