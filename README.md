@@ -14,7 +14,7 @@ Tudo o que foi aprendido por mim sobre HTML5 e CSS3 será postado aqui dentro.<b
 ### Conteúdo:
 
 1. [Listas](https://github.com/andersonr-o/HTML5-CSS3/tree/Listas)
-2. <a href="https://github.com/andersonr-o/HTML5-CSS3/tree/Modelos-de-Box">Links</a>
+2. <a href="https://github.com/andersonr-o/HTML5-CSS3/tree/Links">Links</a>
 3. [Mídias Dinâmicas](https://github.com/andersonr-o/HTML5-CSS3/tree/M%C3%ADdias-Din%C3%A2micas)
 4. [Vídeos](https://github.com/andersonr-o/HTML5-CSS3/tree/V%C3%ADdeos)
 5. [Representando Cores](https://github.com/andersonr-o/HTML5-CSS3/tree/Representando-Cores)
