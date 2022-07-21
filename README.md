@@ -1,6 +1,6 @@
 ## Link para Acesso ao Site:
 
-[Site com iframe de cadastro](https://andersonr-o.github.io/Html-Css/Iframes-Mais-%C3%9Ateis/iframe007.html)
+[Site com iframes diversos](https://andersonr-o.github.io/Html-Css/Iframes-Mais-%C3%9Ateis/iframe007.html)
 
 # Utilidade dos Iframes
 
