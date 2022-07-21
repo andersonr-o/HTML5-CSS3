@@ -1,18 +1,31 @@
-## Link para Acesso ao Site:
+# Incovenientes dos iframes
 
-[Site com iframe opcional](https://andersonr-o.github.io/Html-Css/Navegando-em-iframes/iframe004.html)
+1. Desvalorização de relevância pelo bot do Google
 
-# Navegando no iframe
+O ranking de resultados do Google ao pesquisarmos um site é definido por um algoritmo que classifica os conteúdos como bons, médios e ruins.
 
-Você sabia que conseguimos criar uma caixa vazia e preenchê-la quando o usuário clicar em um link?
+Para essa classificação ocorrer, o algoritmo vasculha o nosso site e faz essa classificação. Iframes podem não ser visualizados por esse algoritmo algumas vezes e pode fazer com  que a relevância do mesmo caia.
 
-Para isso basta criar um iframe com nome e um link/âncora com target="nome do iframe".
+Isso significa que o nosso site pode perder posições e aparecer lá embaixo quando alguém pesquisa algo relacionado ao tema do nosso site. Portanto não exagerar com iframes é uma boa opção.
 
-Por exemplo:
+2. Problemas com Acessibilidade
 
-``<a href="site-estrela.com" target="xyz"> Clique Aqui!</a>``<br>
-``<iframe name="xyz" src=""></iframe>``
+Pessoas cegas usam a internet através de softwares leitores de tela. Alguns desses softwares podem ter problemas com a leitura de iframes.
 
-Perceba que o name do iframe é = "xyz" e o target do link também.
+3. Problemas com a interpretação de comandos
 
-Quando o usuário clicar na âncora/link, o site estrela (fictício, nesse caso) será exibido no iframe, pois eles estão conectados.
+Alguns navegadores podem confundir um comando do usuário e às vezes executa esse comando no iframe e às vezes executa no site principal.
+
+Por exemplo: o usuário clica na seta de voltar. O conteúdo que volta é no iframe ou no site principal?
+
+Outro exemplo é a abertura de um link. Pode estar configurado para abrir em uma nova aba (target="_blank") e ele abre na mesma aba.
+
+4. Problemas com Responsividade
+
+Se o seu site de dentro do iframe não for responsivo, ele trará mais problemas e feiúra do que o convencional, já que a caixa do iframe não possui o mesmo tamanho de um site em tela cheia.
+
+5. Problemas com Segurança
+
+Se o site do iframe que você colocou no seu site estiver sendo hackeado e informações de usuários estiverem sendo roubadas, por exemplo, os usuários que acessam o seu site que contém aquele iframe estarão sendo roubados.
+
+É como uma porta, você conectou a porta do seu site à porta do site que está sendo hackeado, logo você está sofrendo nesse processo também.
