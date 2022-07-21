@@ -1,30 +1,30 @@
-# Incovenientes dos iframes
+# Desvantagens dos iframes
 
-1. Desvalorização de relevância pelo bot do Google
+**1. Desvalorização de relevância pelo bot do Google**
 
 O ranking de resultados do Google ao pesquisarmos um site é definido por um algoritmo que classifica os conteúdos como bons, médios e ruins.
 
 Para essa classificação ocorrer, o algoritmo vasculha o nosso site e faz essa classificação. Iframes podem não ser visualizados por esse algoritmo algumas vezes e pode fazer com  que a relevância do mesmo caia.
 
-Isso significa que o nosso site pode perder posições e aparecer lá embaixo quando alguém pesquisa algo relacionado ao tema do nosso site. Portanto não exagerar com iframes é uma boa opção.
+Isso significa que o nosso site pode perder posições e aparecer lá embaixo quando alguém pesquisa algo relacionado ao tema do nosso site. Portanto não exagerar com iframes é uma boa opção.<br><br>
 
-2. Problemas com Acessibilidade
+**2. Problemas com Acessibilidade**
 
-Pessoas cegas usam a internet através de softwares leitores de tela. Alguns desses softwares podem ter problemas com a leitura de iframes.
+Pessoas cegas usam a internet através de softwares leitores de tela. Alguns desses softwares podem ter problemas com a leitura de iframes.<br><br>
 
-3. Problemas com a interpretação de comandos
+**3. Problemas com a interpretação de comandos**
 
 Alguns navegadores podem confundir um comando do usuário e às vezes executa esse comando no iframe e às vezes executa no site principal.
 
 Por exemplo: o usuário clica na seta de voltar. O conteúdo que volta é no iframe ou no site principal?
 
-Outro exemplo é a abertura de um link. Pode estar configurado para abrir em uma nova aba (target="_blank") e ele abre na mesma aba.
+Outro exemplo é a abertura de um link. Pode estar configurado para abrir em uma nova aba (target="_blank") e ele abre na mesma aba.<br><br>
 
-4. Problemas com Responsividade
+**4. Problemas com Responsividade**
 
-Se o seu site de dentro do iframe não for responsivo, ele trará mais problemas e feiúra do que o convencional, já que a caixa do iframe não possui o mesmo tamanho de um site em tela cheia.
+Se o seu site de dentro do iframe não for responsivo, ele trará mais problemas e feiúra do que o convencional, já que a caixa do iframe não possui o mesmo tamanho de um site em tela cheia.<br><br>
 
-5. Problemas com Segurança
+**5. Problemas com Segurança**
 
 Se o site do iframe que você colocou no seu site estiver sendo hackeado e informações de usuários estiverem sendo roubadas, por exemplo, os usuários que acessam o seu site que contém aquele iframe estarão sendo roubados.
 
