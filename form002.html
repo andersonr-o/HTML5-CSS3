@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+    <form action="cadastro.php" method="post"> <!--Método POST para dados sensíveis-->
+        <p><label for="iusu">Usuário: </label>
+            <input type="text" name="usu" id="iusu" required minlength="2" maxlength="15" autocomplete="username" placeholder="example: João da Silva" size="15">
+        <!--O atributo "required" obriga o usuário a preencher o campo para prosseguir
+        Size define o tamanho da caixa em caracteres. size="10" == caixa que possui espaço para 10 caracteres (isso não quer dizer que não aceitem mais que isso.)
+        Placeholder é algo que fica inscrito na caixa antes do usuário digitar qualquer coisa. É usado para guiá-lo
+        Autocomplete em input é para que sugestões erradas não ocorram (senha sendo sugerida em caixas de texto, por exemplo). Há diversos tipos de autocomplete em inputs, justamente para diferenciar todos os elementos.-->
+        </p>
+        <p>
+            <label for="ipass">Senha: </label>
+            <input type="password" name="pass" id="ipass" required minlength="8" maxlength="20" autocomplete="new-password" placeholder="********" size="20">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
