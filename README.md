@@ -1,30 +1,21 @@
 ## Link:
 
-[Site do formulário](https://andersonr-o.github.io/Html-Css/Formul%C3%A1rios/form001.html)
+[Site do formulário com parâmetros](https://andersonr-o.github.io/Html-Css/Par%C3%A2metros%20em%20Inputs/form002.html)
 
-# Métodos de Envio de Formulários
+# Parâmetros em Inputs
 
-Há dois métodos para que os dados dos formulários sejam enviados à outro lugar: o GET e o POST.
+Os inputs são vastos e possuem muitos parâmetros para que funcionem corretamente. Veja alguns:
 
-Por padrão, o HTML deixa o método GET em execução.
+- Required
 
-Se quisermos mudar isso, a tag &lt;form&gt; tem o parâmetro ``method=""``, aonde isso é definido.
+O atributo ``required`` obriga o usuário a preencher o campo para prosseguir. Só a palavra "required" já basta para funcioná-lo.
 
-## Melhor usar GET ou POST?
+- Minlength & Maxlength
 
-No método GET , as informações aparecem na URL depois de enviadas, como na imagem abaixo:
+Além do required, há também o minlength e o maxlength, que definem um número mínimo e máximo, respectivamente, de caracteres obrigatórios em uma caixa.
 
-![get-form](https://user-images.githubusercontent.com/97858145/185234646-0e5401b9-1322-4aab-a2e7-08b08f480913.png)
+Assim como os outros, basta usar ``minlength="x"``
 
-Já no método POST isso não acontece, mas ainda aparece no inspecionar, ou seja, nenhum é garantia de segurança. Para isso, teríamos que usar o protocolo HTTPS.
+- Size
 
-**  Quando usar um ou  o outro então?**
-
-Basicamente, quando as informações não forem de natureza sensível (endereços, senhas, etc.), podemos usar o GET.
-
-O GET permite compartilhamento de URL com tamanho de até 3000 bytes, o que é aproximadamente 3000 caracteres.
-
-Se formos tratar dados de natureza sensível ou imagens (pois possuem tamanhos mais elevados), usamos o POST.
-
-Não há nenhuma diferença de velocidade perceptível entre os dois métodos atualmente, então usar o GET ou o POST depende do desenvolvedor e da natureza dos dados.
-
+Ele define o tamanho da caixa em caracteres. ``size="10"`` significa que a caixa possuirá espaço para 10 caracteres (isso não quer dizer que não aceite mais que isso.)
