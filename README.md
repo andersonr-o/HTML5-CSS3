@@ -1,13 +1,11 @@
-## Link para Acesso ao Site:
+## Link:
 
-[Site com iframe de cadastro](https://andersonr-o.github.io/Html-Css/Iframes-Mais-%C3%9Ateis/iframe007.html)
+[Site do projeto](https://andersonr-o.github.io/Html-Css/Iframes-Mais-%C3%9Ateis/iframe007.html)
 
-# Utilidade dos Iframes
+# Sobre o Projeto
 
-Os iframes podem ter diversas utilidades além dos vídeos dos quais já estamos acostumados.
+O projeto foi baseado no exercício proposto pelo professor Guanabara, que se encontra [aqui](https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-04)
 
-Com os iframes conseguimos colocar vídeos, mapas do Google Maps e do Waze em nosso site, além de apresentações do Google Documents.
+Os printscreens das redes sociais foram tirados no celular, passados para o computador e editados no programa open source GIMP.
 
-Todas elas têm a opção de incorporar iframes na aba compartilhar de seus devidos sites e podem ser muito úteis dependendo das necessidades do criador do site.
-
-Usei todas as quatro formas de iframes no [site](https://andersonr-o.github.io/Html-Css/Iframes-Mais-%C3%9Ateis/iframe007.html) anexado, veja como é simples acessando o código.
+O site também é responsivo e se adapta a outras telas.
