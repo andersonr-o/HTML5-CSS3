@@ -10,4 +10,4 @@ Os printscreens das redes sociais foram tirados no celular, passados para o comp
 
 A tela que apresenta o canal do youtube é do meu irmão. Decidi usar o dele pois não tenho um.
 
-O site também é responsivo e se adapta a outras telas.
+O site também é responsivo e se adapta a telas menores.
