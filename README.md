@@ -18,7 +18,7 @@ No método GET , as informações aparecem na URL depois de enviadas, como na im
 
 Já no método POST isso não acontece, mas ainda aparece no inspecionar, ou seja, nenhum é garantia de segurança. Para isso, teríamos que usar o protocolo HTTPS.
 
-**  Quando usar um ou  o outro então?**
+**Quando usar um ou  o outro então?**
 
 Basicamente, quando as informações não forem de natureza sensível (endereços, senhas, etc.), podemos usar o GET.
 
