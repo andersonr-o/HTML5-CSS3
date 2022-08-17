@@ -6,9 +6,9 @@
 
 Para criarmos formulários com HTML, usamos a tag &lt;form&gt;
 
-A tag &lt;form&gt; possui alguns parâmetros, como o autocomplete="on/off", que serve para deixarmos habilitada ou não a função de sugestão de texto. Por padrão ele é "on". (igual quando digitamos metade de uma palavra e aparece ela inteira embaixo para clicarmos e escrever ela sem digitar.)
+A tag &lt;form&gt; possui alguns parâmetros, como o ```autocomplete="on/off"```, que serve para deixarmos habilitada ou não a função de sugestão de texto. Por padrão ele é "on". (igual quando digitamos metade de uma palavra e aparece ela inteira embaixo para clicarmos e escrever ela sem digitar.)
 
-Outro parâmetro é o action="". O action se refere para onde os nossos dados irão depois de enviarmos. Podemos fazer um script em alguma linguagem backend para tratarmos esses dados.
+Outro parâmetro é o ```action=""```. O action se refere para onde os nossos dados irão depois de enviarmos. Podemos fazer um script em alguma linguagem backend para tratarmos esses dados.
 
 ## Inputs
 
