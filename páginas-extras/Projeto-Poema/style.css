@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'head';
+    src: url(GoogleFonts-PassionOne/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'sad';
+    src: url(riesling.ttf);
+}
+
+body{
+    margin: auto;
+}
+
+header{
+    color: white;
+    background-color: black;
+    margin: auto;
+    height: 275px;
+    text-align: center;
+}
+
+#titulo{
+    font-family: head;
+    margin: auto;
+    padding-top: 50px;
+    font-size: min(7vw, 6em); /*Min: pega o menor valor entre os dois. Se a tela diminuir e o menor valor for o 7vw, o font-size será 7vw.
+    Se a tela aumentar e o menor valor for 6em, o font-size será de 6em.*/
+    /*font-size: clamp(2.5em, 6em + 0.1em, 9em); max: pega o maior valor entre os dois*/
+}
+
+a{
+    font-weight: bold;
+    font-size: 1.05em;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#PdoHeader{
+    font-size: 1.3em;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+section{
+    position: relative;
+}
+
+.poema{
+    font: bold min(3vw, 2.4em) sad;
+    line-height: 3em;
+    letter-spacing: 3px;
+    position: absolute;
+    transform: translate(40px, 100px);
+}
+
+#primeira{
+    height: 110vh;
+}
+
+#primeiraImg{
+    height: 110vh;
+    background: url(pacote-d012/imagens/background001.jpg) right center /cover fixed;
+}
+
+#secondEstrofe, #fourthEstrofe{
+    color: white;
+    background: rgba(0, 0, 0, 0.514) right bottom;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 0px black;
+}
+
+#terceira{
+    height: 85vh;
+}
+
+#segundaImg{
+    height: 110vh;
+    background: url(pacote-d012/imagens/background002.jpg) left bottom /cover fixed;
+}
+
+#final{
+    text-align: right;
+    color: black;
+    padding: 15px 0 15px;
+    font-size: min(2.8vw, 1em);
+}
+
+footer{
+    text-align: center;
+    height: 30px;
+}
+
+#PdoFooter{
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 8px;
+}

@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonteBaixada';
+    src: url(Imgs/idroid.otf) format('opentype');
+}
+
+/*Glassmorphism
+background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255,255,255,0.7),
+        rgba(255,255,255,0.3)
+    );
+    backdrop-filter: blur(2rem);*/
+
+body{
+    background-color: #ebe5c5;
+    margin: 0%;
+}
+
+header{
+    background-image: linear-gradient(to top, green, rgb(102, 168, 102));
+}
+    
+h1.header{
+    padding-top: 20px;
+    margin-top: auto;
+}
+
+h2.subtitleHeader{
+    font-weight: normal;
+    margin: 10px 0;
+    padding-bottom: 25px;
+}
+
+h1.header, h2.subtitleHeader{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+#ancoraone{
+    padding: 0 5px 0 5px;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+
+#ancoraone:hover{
+    background-image: linear-gradient(to right, rgb(1, 129, 1), rgb(102, 168, 102));
+}
+
+main{ /*Responsividade*/
+    min-width: 300px;
+    max-width: 1000px; /*Fizeram o article se ajustar a telas menores*/
+    margin: auto;
+    background-color: rgb(120, 168, 46);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.title{
+    font-size: 32px;
+    margin: auto;
+}
+
+.title, .subtitle, .mascote{
+    color: green;
+    background-color: white;
+    font-family: 'fonteBaixada';
+    text-align: justify;
+}
+
+.subtitle, .mascote{
+    background-image: linear-gradient(to right, rgb(126, 164, 126), transparent); 
+}
+
+article{
+    /*width: calc(90vw - 200px);*/
+    background-color: white;
+    text-align: center; /*Responsividade*/
+    margin: auto; /*Responsividade*/
+    margin-bottom: 13px;
+    padding: 13px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pdoh1, .ppp{
+    text-align: justify;
+    text-indent: 25px;
+}
+
+
+/*Código mais otimizado que não deixa o vídeo ser reproduzido com bordas pretas:*/
+iframe{
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+    position: absolute; /*O absolute diz respeito à posição referencial (esquerdo superior), inclusive de um elemento pai (o pai do iframe é o .video), (desde que ele não seja static, senão é referente ao documento).*/
+}
+
+.video{
+    background-color: darkgreen;
+    margin: 0px -13px 30px -13px;
+    padding: 13px;
+    padding-bottom: 56.5%;
+    position: relative; /*Position Relative diz respeito ao posição referencial. Ele começa no padrão e depois alteramos*/
+}
+
+/*Código mais poluído (o que eu usei para chegar em resultado semelhante antes de ver a solução).
+iframe{
+    margin-top: 30px;
+    height: 440px;
+    width: 90%
+}
+
+.video{
+    background-color: darkgreen;
+    height: 500px;
+}*/
+
+
+section{
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgba(157, 255, 0, 0.803);
+    text-align: justify;
+    /*text-indent: 25px;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sectionH1{
+    text-indent: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: aliceblue;
+    background-color: green;
+    text-align: justify;
+    padding: 8px;
+    border-top-left-radius: 15px; /*O border-radius do sectionH1 deve ser igual ao da section*/
+    border-top-right-radius: 15px;
+}
+
+ul{
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+}
+
+.lastOne{
+    color: green;
+    text-decoration: none;
+    background-color: rgba(62, 219, 62, 0.77);
+}
+
+.lastOne::after{
+    content: '\00A0\1F517';
+}
+
+.ultimoP{
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+    font-size: 17px;
+}
+
+.rodape{
+    margin: auto;
+    padding: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: forestgreen;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 30px;
+    background-color: rgb(46, 55, 27);
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
