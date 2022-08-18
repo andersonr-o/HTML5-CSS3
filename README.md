@@ -19,3 +19,11 @@ Assim como os outros, basta usar ``minlength="x"``
 - Size
 
 Ele define o tamanho da caixa em caracteres. ``size="10"`` significa que a caixa possuirá espaço para 10 caracteres (isso não quer dizer que não aceite mais que isso.)
+
+- Autocomplete
+
+Em input, o autocomplete é para que sugestões erradas não ocorram (senha sendo sugerida em caixas de texto, por exemplo).
+
+Há diversos tipos de autocomplete em inputs, justamente para diferenciar todos os elementos. Alguns exemplos:
+
+![Captura de tela de 2022-08-18 16-04-48](https://user-images.githubusercontent.com/97858145/185474309-b61063e1-56c6-4db9-a103-08ab40b91b0c.png)
