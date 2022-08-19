@@ -1,33 +1,25 @@
 ## Link:
 
-[Site com checkbox e radio]()
+[Site com os três tipos de inputs]()
 
-# Inputs Checkbox e Radio
+# Color, File e Range
 
-## Checkbox
+## Color
 
-O input de tipo checkbox cria um quadrado que pode ser selecionado através de um clique. Na frente do input usamos um label para relacionar o quadrado com uma palavra, ficando assim:
+O input do tipo color é um seletor de cores RGB para o usuário. ELe poderá escolher entre as milhões de possibilidades de corescom esse input.
 
-![checkbox-example](https://user-images.githubusercontent.com/97858145/185682026-2397aa18-f8aa-4a9e-88ec-50766350de32.png)
+A cor padrão é preto (#000000), mas isso pode ser mudado com o atributo ``value=""``.
 
-### Atributo checked
+Os dados enviados para o backend com esse input é a cerquilha e o código RGB.
 
-O atributo checked faz com que uma opção já esteja marcada quando a página for carregada.
+## Range
 
-Se eu sei que a maioria das pessoas vai escolher futebol, eu deixo futebol checked, e assim ele já estará marcado, facilitando o trabalho do usuário.
+O input de tipo range é basicamente uma régua que contém uma bolinha que pode ser arrastada para frente ou para trás.
 
-## Radio
+Por padrão, os dados enviados para o backend no input de tipo range é de 0 a 100 dependendo de onde o usuário posicionou a bolinha na régua. Mas esse valor pode ser alterado com os atributos ``min`` e ``max``
 
-O de tipo radio cria uma bolinha em vez de um quadrado, mas ele só permite que uma opção seja marcada entre todas as opções.
+## File
 
-Para isso, elas **terão de ter o "name" igual**. Caso o contrário, todas as bolinhas poderão ser marcadas uma vez e depois não poderão ser desmarcadas mais.
+O input de tipo file permite que um arquivo, como uma imagem por exemplo, seja escolhida pelo usuário a partir de seu dispositivo.
 
-O input do radio é assim visualmente:
-
-![radio-example](https://user-images.githubusercontent.com/97858145/185682768-700341be-00ef-4dd0-b05c-a6a7cbd62139.png)
-
-### Preocupando-se com o backend
-
-É importante colocar um value no input de tipo radio, pois os dados são enviados como on e off para o backend eventualmente.
-
-Ao colocarmos ``value="M"`` para o radio de sexo masculino e ``value="F"`` para o radio de sexo feminino, eliminamos esse problema, pois é isso que será recebido no backend.
+**Quando usamos esse input, precisamos usar o [método POST de envio de dados](https://github.com/andersonr-o/HTML5-CSS3/tree/M%C3%A9todos-de-Envio-de-Dados), pois o GET não funciona em arquivos com mais de 3000 bytes, e uma foto e outros elementos do formulário podem facilmente ultrapassar esse valor.**
