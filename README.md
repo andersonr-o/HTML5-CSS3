@@ -1,51 +1,31 @@
 ## Link:
 
-[Site com Inputs de Data](https://andersonr-o.github.io/Html-Css/Inputs-de-Data/form003.html)
+[Site com Agrupamento de Inputs](https://andersonr-o.github.io/Html-Css/Agrupamento-de-Campos-e-Inputs/form005.html)
 
-# Quatro Inputs de Formulários
+# Agrupamento de Campos e Inputs
 
-Nesse artigo veremos mais quatro inputs que usamos em [formulários](https://github.com/andersonr-o/HTML5-CSS3/tree/Formul%C3%A1rios): o number, o month, o date e o time.
+## Inputs de Telefone e E-mail
 
-## Number
+O input de tipo email e telefone são bons, mas **possuem algumas falhas**. O input de email só verifica se há um arroba (@) no texto digitado. Se houver ele é considerado um email.
 
-O input de tipo number cria uma caixa que não aceita texto, somente números.
+A mesma coisa ocorre com o input de tipo tel (telefone).
 
-### Min e Max
+Para corrigir esse problema, teríamos que usar exprssões regulares, ou RegEx. O RegEx basicamente define um padrão para que o texto digitado pelo usuário seja aceito. Por exemplo:
 
-Temos os parâmetros ``min=""`` ``max=""`` que referem-se ao valor mínimo e máximo que será colocado na caixa.
+![RegEx-example-better](https://user-images.githubusercontent.com/97858145/185679351-1134fadb-a500-4af9-9084-b1ae2239ca5d.png)
 
-Então se o nosso min for igual a 2, o número 1, 0, -1, etc. não serão aceitos no nosso input.
+Mas esse assunto é um pouco mais complicado e foge do tema do artigo, pesquisem à parte.
 
-### Step
+## Agrupamento de Campos
 
-Também há o step, que é o valor que será pulado na seta da caixa. Por exemplo, se o nosso step for igual a 0.5 e na caixa estiver o valor 5, ao clicarmos na seta para cima, aparecerá o valor 5.5.
+Podemos envelopar as caixas do nosso formulário com a tag &lt;fieldset&gt; que significa grupo de campos.
 
-Veja no vídeo abaixo como funcionaria:
+Ela criará um quadrado em volta das caixas.
 
-https://user-images.githubusercontent.com/97858145/185673497-b5ba9e3c-42b4-46fc-98bc-7152b7e044ba.webm
+Também há a tag &lt;legend&gt; quando usamos a &lt;fieldset&gt;, que cria um cabeçalho no fieldset.
 
-## Month
+O resultado final sem CSS seria esse:
 
-O input do tipo month cria um calendário com mês e ano no formulário.
+![Captura de tela de 2022-08-19 15-03-43](https://user-images.githubusercontent.com/97858145/185680137-4645c470-291f-454b-acf5-ee7abb941548.png)
 
-### Value
-
-Podemos usar o ``value=""`` em inputs do tipo number, month, date e time, mas eles anularão qualquer placeholder que esteja em execução.
-
-Basicamente, o value fará com que um valor já fique registrado dentro da caixa ao carregá-la.
-
-Então, se usarmos ``value="2022-08"``, ao carregar a página, o mês 08 do ano de 2022 já estará pré selecionado.
-
-## Date
-
-É a mesma coisa que o input de tipo month, mas nesse haverá também o dia no calendário, e não somente o mês e o ano.
-
-Ficaria assim:
-
-![Captura de tela de 2022-08-19 14-30-42](https://user-images.githubusercontent.com/97858145/185675107-cac60ede-bcfe-4ca5-a18c-538fdc171354.png)
-
-## Time
-
-o input de tipo time cria um relógio onde o usuário pode inserir o horário que preferir. Veja:
-
-![Captura de tela de 2022-08-19 14-32-46](https://user-images.githubusercontent.com/97858145/185675452-d3c967ca-ea4f-470e-89ac-5fa1a3492087.png)
+Há dois grupos de campos e dois cabeçalhos de grupo de campo.
