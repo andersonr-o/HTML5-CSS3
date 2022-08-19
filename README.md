@@ -49,6 +49,9 @@ Tudo o que foi aprendido por mim sobre HTML5 e CSS3 será postado aqui dentro.<b
 31. [Formulários](https://github.com/andersonr-o/HTML5-CSS3/tree/Formul%C3%A1rios)
 32. [Label para Formulários](https://github.com/andersonr-o/HTML5-CSS3/tree/Label)
 33. [Métodos de Envio de Dados de Formulários](https://github.com/andersonr-o/HTML5-CSS3/tree/M%C3%A9todos-de-Envio-de-Dados)
-34. [Parâmetros em Inputs](https://github.com/andersonr-o/HTML5-CSS3/tree/Par%C3%A2metros-em-Inputs)<br>
+34. [Parâmetros em Inputs](https://github.com/andersonr-o/HTML5-CSS3/tree/Par%C3%A2metros-em-Inputs)
+35. [Inputs de Data](https://github.com/andersonr-o/HTML5-CSS3/tree/Inputs-de-Data)
+36. [Agrupamento de Campos e Inputs](https://github.com/andersonr-o/HTML5-CSS3/tree/Agrupamento-de-Campos-e-Inputs)
+37. [Input Checkbox e Radio](https://github.com/andersonr-o/HTML5-CSS3/tree/Input-Checkbox-e-Radio)<br>
 
 Essa ordem foi a ordem na qual eu estudei e estou estudando HTML e CSS e, por conseguinte, pode ser uma boa ordem de leitura.
