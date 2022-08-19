@@ -1,31 +1,33 @@
 ## Link:
 
-[Site com Agrupamento de Inputs](https://andersonr-o.github.io/Html-Css/Agrupamento-de-Campos-e-Inputs/form005.html)
+[Site com checkbox e radio]()
 
-# Agrupamento de Campos e Inputs
+# Inputs Checkbox e Radio
 
-## Inputs de Telefone e E-mail
+## Checkbox
 
-O input de tipo email e telefone são bons, mas **possuem algumas falhas**. O input de email só verifica se há um arroba (@) no texto digitado. Se houver ele é considerado um email.
+O input de tipo checkbox cria um quadrado que pode ser selecionado através de um clique. Na frente do input usamos um label para relacionar o quadrado com uma palavra, ficando assim:
 
-A mesma coisa ocorre com o input de tipo tel (telefone).
+![checkbox-example](https://user-images.githubusercontent.com/97858145/185682026-2397aa18-f8aa-4a9e-88ec-50766350de32.png)
 
-Para corrigir esse problema, teríamos que usar exprssões regulares, ou RegEx. O RegEx basicamente define um padrão para que o texto digitado pelo usuário seja aceito. Por exemplo:
+### Atributo checked
 
-![RegEx-example-better](https://user-images.githubusercontent.com/97858145/185679351-1134fadb-a500-4af9-9084-b1ae2239ca5d.png)
+O atributo checked faz com que uma opção já esteja marcada quando a página for carregada.
 
-Mas esse assunto é um pouco mais complicado e foge do tema do artigo, pesquisem à parte.
+Se eu sei que a maioria das pessoas vai escolher futebol, eu deixo futebol checked, e assim ele já estará marcado, facilitando o trabalho do usuário.
 
-## Agrupamento de Campos
+## Radio
 
-Podemos envelopar as caixas do nosso formulário com a tag &lt;fieldset&gt; que significa grupo de campos.
+O de tipo radio cria uma bolinha em vez de um quadrado, mas ele só permite que uma opção seja marcada entre todas as opções.
 
-Ela criará um quadrado em volta das caixas.
+Para isso, elas **terão de ter o "name" igual**. Caso o contrário, todas as bolinhas poderão ser marcadas uma vez e depois não poderão ser desmarcadas mais.
 
-Também há a tag &lt;legend&gt; quando usamos a &lt;fieldset&gt;, que cria um cabeçalho no fieldset.
+O input do radio é assim visualmente:
 
-O resultado final sem CSS seria esse:
+![radio-example](https://user-images.githubusercontent.com/97858145/185682768-700341be-00ef-4dd0-b05c-a6a7cbd62139.png)
 
-![Captura de tela de 2022-08-19 15-03-43](https://user-images.githubusercontent.com/97858145/185680137-4645c470-291f-454b-acf5-ee7abb941548.png)
+### Preocupando-se com o backend
 
-Há dois grupos de campos e dois cabeçalhos de grupo de campo.
+É importante colocar um value no input de tipo radio, pois os dados são enviados como on e off para o backend eventualmente.
+
+Ao colocarmos ``value="M"`` para o radio de sexo masculino e ``value="F"`` para o radio de sexo feminino, eliminamos esse problema, pois é isso que será recebido no backend.
