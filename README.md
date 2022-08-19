@@ -1,6 +1,6 @@
 ## Link:
 
-[Site com os três tipos de inputs]()
+[Site com os três tipos de inputs](https://andersonr-o.github.io/Html-Css/Inputs-Color-Range-FIle/form006.html)
 
 # Color, File e Range
 
