@@ -1,0 +1,1 @@
+Arquivo teste. Aprenda PHP para manipular dados.
