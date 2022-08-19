@@ -1,51 +1,31 @@
 ## Link:
 
-[Site com Inputs de Data](https://andersonr-o.github.io/Html-Css/Inputs-de-Data/form003.html)
+[Site do formulário](https://andersonr-o.github.io/Html-Css/Formul%C3%A1rios/form001.html)
 
-# Quatro Inputs de Formulários
+# Métodos de Envio de Formulários
 
-Nesse artigo veremos mais quatro inputs que usamos em [formulários](https://github.com/andersonr-o/HTML5-CSS3/tree/Formul%C3%A1rios): o number, o month, o date e o time.
+Há dois métodos para que os dados dos formulários sejam enviados à outro lugar: o GET e o POST.
 
-## Number
+Por padrão, o HTML deixa o método GET em execução.
 
-O input de tipo number cria uma caixa que não aceita texto, somente números.
+Se quisermos mudar isso, a tag &lt;form&gt; tem o parâmetro ``method=""``, aonde isso é definido.
 
-### Min e Max
+## Melhor usar GET ou POST?
 
-Temos os parâmetros ``min=""`` ``max=""`` que referem-se ao valor mínimo e máximo que será colocado na caixa.
+No método GET , as informações aparecem na URL depois de enviadas, como na imagem abaixo:
 
-Então se o nosso min for igual a 2, o número 1, 0, -1, etc. não serão aceitos no nosso input.
+![get-form](https://user-images.githubusercontent.com/97858145/185234646-0e5401b9-1322-4aab-a2e7-08b08f480913.png)
 
-### Step
+Já no método POST isso não acontece, mas ainda aparece no inspecionar, ou seja, nenhum é garantia de segurança. Para isso, teríamos que usar o protocolo HTTPS.
 
-Também há o step, que é o valor que será pulado na seta da caixa. Por exemplo, se o nosso step for igual a 0.5 e na caixa estiver o valor 5, ao clicarmos na seta para cima, aparecerá o valor 5.5.
+**  Quando usar um ou  o outro então?**
 
-Veja no vídeo abaixo como funcionaria:
+Basicamente, quando as informações não forem de natureza sensível (endereços, senhas, etc.), podemos usar o GET.
 
-https://user-images.githubusercontent.com/97858145/185673497-b5ba9e3c-42b4-46fc-98bc-7152b7e044ba.webm
+O GET permite compartilhamento de URL com tamanho de até 3000 bytes, o que é aproximadamente 3000 caracteres.
 
-## Month
+Se formos tratar dados de natureza sensível ou imagens (pois possuem tamanhos mais elevados), usamos o POST.
 
-O input do tipo month cria um calendário com mês e ano no formulário.
+Não há nenhuma diferença de velocidade perceptível entre os dois métodos atualmente, então usar o GET ou o POST depende do desenvolvedor e da natureza dos dados.
 
-### Value
 
-Podemos usar o ``value=""`` em inputs do tipo number, month, date e time, mas eles anularão qualquer placeholder que esteja em execução.
-
-Basicamente, o value fará com que um valor já fique registrado dentro da caixa ao carregá-la.
-
-Então, se usarmos ``value="2022-08"``, ao carregar a página, o mês 08 do ano de 2022 já estará pré selecionado.
-
-## Date
-
-É a mesma coisa que o input de tipo month, mas nesse haverá também o dia no calendário, e não somente o mês e o ano.
-
-Ficaria assim:
-
-![Captura de tela de 2022-08-19 14-30-42](https://user-images.githubusercontent.com/97858145/185675107-cac60ede-bcfe-4ca5-a18c-538fdc171354.png)
-
-## Time
-
-o input de tipo time cria um relógio onde o usuário pode inserir o horário que preferir. Veja:
-
-![Captura de tela de 2022-08-19 14-32-46](https://user-images.githubusercontent.com/97858145/185675452-d3c967ca-ea4f-470e-89ac-5fa1a3492087.png)
