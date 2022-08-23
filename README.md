@@ -1,6 +1,6 @@
 ## Link:
 
-[Site com os três tipos tags](https://andersonr-o.github.io/Html-Css/Select%2C%20Datalist%20%26%20Textarea/form007.html)
+[Site com os três tipos de tags](https://andersonr-o.github.io/Html-Css/Select%2C%20Datalist%20%26%20Textarea/form007.html)
 
 # Select, Datalist e Textarea
 
