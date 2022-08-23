@@ -1,25 +1,59 @@
 ## Link:
 
-[Site com os três tipos de inputs]()
+[Site com os três tipos tags](https://andersonr-o.github.io/Html-Css/Select%2C%20Datalist%20%26%20Textarea/form007.html)
 
-# Color, File e Range
+# Select, Datalist e Textarea
 
-## Color
+## Select
 
-O input do tipo color é um seletor de cores RGB para o usuário. ELe poderá escolher entre as milhões de possibilidades de corescom esse input.
+O select cria uma lista de possibilidades/opções com a tag &lt;select&gt; e a tag &lt;option&gt;.
 
-A cor padrão é preto (#000000), mas isso pode ser mudado com o atributo ``value=""``.
+Ficando parecido com isso:
 
-Os dados enviados para o backend com esse input é a cerquilha e o código RGB.
+![select-example](https://user-images.githubusercontent.com/97858145/186180659-bf4492ad-d9c3-484b-b750-41c2929e9ef4.png)
 
-## Range
+A tag &lt;optgroup&gt; é só para diferenciar diferentes grupos de &lt;option&gt;. No exemplo acima, eu as usei para separar as regiões dos estados: um para os estados do Sudeste e um para os estados do Nordeste.
 
-O input de tipo range é basicamente uma régua que contém uma bolinha que pode ser arrastada para frente ou para trás.
+Podemos ver que há um atributo label dentro de &lt;optgroup&gt;, mas ele serve para identificar o optgroup e não para fazer relação.
 
-Por padrão, os dados enviados para o backend no input de tipo range é de 0 a 100 dependendo de onde o usuário posicionou a bolinha na régua. Mas esse valor pode ser alterado com os atributos ``min`` e ``max``
+O resultado do código acima é esse:
 
-## File
+![select-example-graphics](https://user-images.githubusercontent.com/97858145/186181424-ddeae746-ced0-4f96-b64f-ebaa5b330bda.png)
 
-O input de tipo file permite que um arquivo, como uma imagem por exemplo, seja escolhida pelo usuário a partir de seu dispositivo.
+Se quisermos deixar um valor já seleiconado quando a página carregar (Minas Gerais no exemplo acima), usamos o atributo `checked` dentro da &lt;option&gt; em questão.
 
-**Quando usamos esse input, precisamos usar o [método POST de envio de dados](https://github.com/andersonr-o/HTML5-CSS3/tree/M%C3%A9todos-de-Envio-de-Dados), pois o GET não funciona em arquivos com mais de 3000 bytes, e uma foto e outros elementos do formulário podem facilmente ultrapassar esse valor.**
+## Datalist
+
+O select cria uma lista de opções, mas o usuário não consegue digitar algo na caixa que não esteja na lista. Para isso usamos o &lt;datalist&gt;.
+
+Antes de usar o datalist, criamos um input do tipo texto e adicionamos um atributo chamado `list=""`.
+
+Dentro do list, terá que ter o id do datalist para fazer relação, igual ao [label](https://github.com/andersonr-o/HTML5-CSS3/tree/Label).
+
+O código ficará parecido com este:
+
+![datalist-code](https://user-images.githubusercontent.com/97858145/186182625-392385a3-5e76-4511-af1e-3b4dd2a45655.png)
+
+E o resultado será esse:
+
+![datalist-example](https://user-images.githubusercontent.com/97858145/186182872-7667e750-7a13-4b75-8429-29dcc378b66a.png)
+
+Mas dessa vez, se a profissão do usuário não for nenhuma das três da lista, ele poderá digitá-la.
+
+**Relembrando:** O &lt;label&gt; faz relação com o id do input e o list de &lt;input&gt; faz relação com o id de &lt;datalist&gt; e é dentro de &lt;datalist&gt; que irão os &lt;option&gt;.
+
+## Textarea
+
+O &lt;textarea&gt; cria uma caixa de texto assim:
+
+![textarea-example](https://user-images.githubusercontent.com/97858145/186186921-de665513-54fa-4be3-bc51-b00b8564d4a1.png)
+
+O código é simples, veja só:
+
+![textarea-code](https://user-images.githubusercontent.com/97858145/186186744-67449b42-6894-4168-8de8-54e64c6119b8.png)
+
+**O tamanho da caixa** é definido pelo desenvolvedor nos atributos `cols=""` e `rows=""` que vemos no código acima.
+
+Mas isso é só o tamanho do quadrado, se o usuário ultrapassar esse quadrado com o seu texto, ainda continuará funcionando, pois o &lt;textarea&gt; é infinito.
+
+**Importante:** quando usar &lt;textarea&gt;, deixe o método do formulário como POST, pois assim mensagens grandes digitadas pelo usuário também serão enviadas para o backend.
