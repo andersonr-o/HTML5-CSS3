@@ -1,27 +1,29 @@
 ## Link:
 
-[Site com Media Query para Impressão e Tela](https://andersonr-o.github.io/Html-Css/Media-Query-Print-Screen/index.html)
+[Site com Media Feature](https://andersonr-o.github.io/Html-Css/Media-Features/index.html)
 
-# Media Queries
+# Media Features
 
-Media Query é quando um site se adapta a diferentes tipos de tela, mas não somente uma responsividade básica como vimos no capítulo de [Mídias Dinâmicas](https://github.com/andersonr-o/HTML5-CSS3/tree/M%C3%ADdias-Din%C3%A2micas).
+O que vimos no artigo passado, o [Media Query](https://github.com/andersonr-o/HTML5-CSS3/tree/Media-Query), se trata dos media types, ou seja, tipos de mídia.
 
-Agora, diferentes tipos de tela geram menus de maneiras diferentes, mostram conteúdos de maneiras diferentes e tudo o mais.
+Mas quando colocamos `media="screen"` é muito relativo, pois há diversos tamanhos de tela em diversos dispositivos diferentes.
 
-É como se existissem dois sites diferentes, porém parecidos e com o mesmo conteúdo.
+Por isso existem os media features, ou características de mídia.
 
-É tudo que se adapta dessa vez.
+Media query é media type + media feature.
 
-## Como criar?
+Quando mudamos o tamanho da tela mudando a orientação do nosso dispositivo de em pé para deitado, essa diferença não pode quebrar o nosso site.
 
-O primeiro passo para criar media queries é definir uma CSS diferente para cada objetivo.
+## Usando Media Feature
 
-No link do nosso CSS, colocamos `media=""` como um atributo para o nosso objetivo.
+Medias features são indicados por parênteses dentro do atributo `media=""`, por exemplo:
 
-Se queremos editar o conteúdo que será mostrado na tela, isto é, no site normal que todos acessam, usamos `media="screen"`.
+`<link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation:portrait)">`
 
-Se queremos editar o estilo do modo de impressão, usamos `media="print"`.
+Para cada media feature devemos usar um parêntese diferente.
 
-Se queremos que o nosso CSS se aplique a todos os contextos, usamos `media="all"`.
+Depois basta estilizar da maneira como preferirmos na CSS.
 
-Veja e teste o [site](https://andersonr-o.github.io/Html-Css/Media-Query-Print-Screen/index.html) anexado: dê um Ctrl + P para ver como o estilo da tela é diferente do estilo de impressão.
+*Mude a orientação do seu dispositivo e teste. Se estiver em um computador, diminua o tamanho do site na tela.*
+
+As imagens utilizadas foram coletadas no [repositório](https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-04/ex026) do professor Guanabara.
