@@ -24,4 +24,4 @@ Se queremos editar o estilo do modo de impressão, usamos `media="print"`.
 
 Se queremos que o nosso CSS se aplique a todos os contextos, usamos `media="all"`.
 
-Veja e teste o [site]() anexado: dê um Ctrl + P para ver como o estilo da tela é diferente do estilo de impressão.
+Veja e teste o [site](https://andersonr-o.github.io/Html-Css/Media-Query-Print-Screen/index.html) anexado: dê um Ctrl + P para ver como o estilo da tela é diferente do estilo de impressão.
