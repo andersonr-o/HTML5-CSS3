@@ -24,6 +24,6 @@ Para cada media feature devemos usar um parêntese diferente.
 
 Depois basta estilizar da maneira como preferirmos na CSS.
 
-*Mude a orientação do seu dispositivo e teste. Se estiver em um computador, diminua o tamanho do site na tela.*
+**Mude a orientação do seu dispositivo e teste. Se estiver em um computador, diminua o tamanho do site na tela.**
 
 As imagens utilizadas foram coletadas no [repositório](https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-04/ex026) do professor Guanabara.
