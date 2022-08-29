@@ -1,6 +1,6 @@
 ## Link:
 
-[Site com Media Feature Agrupada](https://andersonr-o.github.io/Html-Css/Media-Features-Agrupadas/index.html)
+[Site com Media Feature Agrupada](https://andersonr-o.github.io/Html-Css/Media-Features/index.html)
 
 # O Que é Media Feature Agrupada?
 
