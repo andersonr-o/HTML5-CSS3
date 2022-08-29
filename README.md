@@ -1,29 +1,13 @@
 ## Link:
 
-[Site com Media Feature](https://andersonr-o.github.io/Html-Css/Media-Features/index.html)
+[Site com Media Feature Agrupada](https://andersonr-o.github.io/Html-Css/Media-Features-Agrupadas/index.html)
 
-# Media Features
+# O Que é Media Feature Agrupada?
 
-O que vimos no artigo passado, o [Media Query](https://github.com/andersonr-o/HTML5-CSS3/tree/Media-Query), se trata dos media types, ou seja, tipos de mídia.
+Basicamente, é a mesma coisa que vimos no artigo de [Media Features](https://github.com/andersonr-o/HTML5-CSS3/tree/Media-Features), porém tudo em um único CSS.
 
-Mas quando colocamos `media="screen"` é muito relativo, pois há diversos tamanhos de tela em diversos dispositivos diferentes.
+Para isso ser possível, não definimos o media type e o media feature no link do CSS, e sim dentro do pŕoprio CSS através da regra "@media".
 
-Por isso existem os media features, ou características de mídia.
+Veja como fica o código:
 
-Media query é media type + media feature.
-
-Quando mudamos o tamanho da tela mudando a orientação do nosso dispositivo de em pé para deitado, essa diferença não pode quebrar o nosso site.
-
-## Usando Media Feature
-
-Medias features são indicados por parênteses dentro do atributo `media=""`, por exemplo:
-
-`<link rel="stylesheet" href="estilos/retrato.css" media="screen and (orientation:portrait)">`
-
-Para cada media feature devemos usar um parêntese diferente.
-
-Depois basta estilizar da maneira como preferirmos na CSS.
-
-*Mude a orientação do seu dispositivo e teste. Se estiver em um computador, diminua o tamanho do site na tela.*
-
-As imagens utilizadas foram coletadas no [repositório](https://github.com/gustavoguanabara/html-css/tree/master/exercicios/modulo-04/ex026) do professor Guanabara.
+![Captura de tela de 2022-08-29 16-26-20](https://user-images.githubusercontent.com/97858145/187282216-5884c14c-ffba-413a-80cb-b85796fdeba5.png)
