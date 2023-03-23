@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+div{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
