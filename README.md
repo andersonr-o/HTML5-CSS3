@@ -59,3 +59,7 @@ Tudo o que foi aprendido por mim sobre HTML5 e CSS3 será postado aqui dentro.<b
 41. [Media Features](https://github.com/andersonr-o/HTML5-CSS3/tree/Media-Features)<br>
 
 Essa ordem foi a ordem na qual eu estudei e estou estudando HTML e CSS e, por conseguinte, pode ser uma boa ordem de leitura.
+
+### Exercícios usando JavaScript
+
+1. [Exibindo a Data Atual](https://github.com/andersonr-o/HTML5-CSS3/tree/Exibindo-Data-em-JavaScript)
