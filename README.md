@@ -63,3 +63,4 @@ Essa ordem foi a ordem na qual eu estudei e estou estudando HTML e CSS e, por co
 ### Exercícios usando JavaScript
 
 1. [Exibindo a Data Atual](https://github.com/andersonr-o/HTML5-CSS3/tree/Exibindo-Data-em-JavaScript)
+2. [Calculando o IMC](https://github.com/andersonr-o/HTML5-CSS3/tree/Calculando-o-Seu-IMC-com-JavaScript)
